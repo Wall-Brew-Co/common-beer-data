@@ -44,7 +44,10 @@
                         :include-grains?       true
                         :include-sugars?       true}))
 
+
 #_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
+
+
 (defn get-fermentable
   "Returns the `common-beer-format.hops/hop` at the given keyword.
    If the keyword is not found, returns nil a la `clojure.core/get`.
@@ -78,7 +81,10 @@
                 :include-bittering? true
                 :include-both?      true}))
 
+
 #_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
+
+
 (defn get-hop
   "Returns the `common-beer-format.hops/hop` at the given keyword.
    If the keyword is not found, returns nil a la `clojure.core/get`.
@@ -137,6 +143,8 @@
 
 
 #_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
+
+
 (defn get-yeast
   "Returns the `common-beer-format.yeasts/yeast` at the given keyword.
    If the keyword is not found, returns nil a la `clojure.core/get`.

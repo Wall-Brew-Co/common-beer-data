@@ -72,6 +72,7 @@
     (is (> (count (data/select-yeasts {:include-wyeast? true}))
            (count (data/select-yeasts {}))))))
 
+
 (deftest get-*-tests
   (testing "Basic tests around selection of ingredients"
     (is (s/valid? ::fermentables/fermentable (data/get-fermentable :light-dry-extract)))
