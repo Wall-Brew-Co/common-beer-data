@@ -17,7 +17,7 @@ Alternatively, you may clone or fork the repository to work with it directly.
 
 ## Usage
 
-`common-beer-data.core` contains all of the refrences required to load any of the data in `common-beer-data`.
+`common-beer-data.core` contains all of the references required to load any of the data in `common-beer-data`.
 Individual data namespaces may be requied and used when convenient.
 
 For example:
