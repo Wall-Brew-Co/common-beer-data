@@ -7,7 +7,7 @@
                  [org.clojure/clojurescript "1.11.60" :scope "provided"]]
   :plugins [[lein-cljsbuild "1.1.8"]]
   :profiles {:uberjar {:aot :all}
-             :dev     {:dependencies [[com.wallbrew/common-beer-format "1.4.0"]
+             :dev     {:dependencies [[com.wallbrew/common-beer-format "2.0.0"]
                                       [doo "0.1.11"]
                                       [org.clojure/spec.alpha "0.3.218"]]
                        :plugins      [[lein-doo "0.1.11"]]}}
