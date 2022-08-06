@@ -5,6 +5,8 @@
 
 A repository of [common-beer-format](https://github.com/Wall-Brew-Co/common-beer-format) data for use in Clojure brewing applications.
 
+This repository follows the guidelines and standards of the [Wall Brew Open Source Policy.](https://github.com/Wall-Brew-Co/open-source "Our open source guidelines")
+
 ## Installation
 
 A deployed copy of the most recent version of [common-beer-data can be found on clojars.](https://clojars.org/com.wallbrew/common-beer-data)
