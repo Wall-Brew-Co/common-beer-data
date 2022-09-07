@@ -11,11 +11,6 @@ restricted:
   - .cljstyle
   - SECURITY.md
 
-examples:
-  - resources/**/*
-
-spec:
-  - src/common_beer_format/specs/*
-
-data:
-  - src/common_beer_format/data/*
+test-dependencies:
+  - package.json
+  - package-lock.json
