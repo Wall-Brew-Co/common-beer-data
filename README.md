@@ -2,6 +2,9 @@
 
 [![Clojars Project](https://img.shields.io/clojars/v/com.wallbrew/common-beer-data.svg)](https://clojars.org/com.wallbrew/common-beer-data)
 ![GitHub Runner](https://github.com/Wall-Brew-Co/common-beer-data/workflows/Clojurescript%20CI/badge.svg)
+[![cljdoc badge](https://cljdoc.org/badge/com.wallbrew/common-beer-data)](https://cljdoc.org/d/com.wallbrew/common-beer-data/CURRENT)
+[![GitHub](https://img.shields.io/github/license/Wall-Brew-Co/common-beer-data)](https://github.com/Wall-Brew-Co/common-beer-data/blob/master/LICENSE)
+[![Twitter Follow](https://img.shields.io/twitter/follow/WallBrew?style=social)](https://twitter.com/WallBrew)
 
 A repository of [common-beer-format](https://github.com/Wall-Brew-Co/common-beer-format) data for use in Clojure brewing applications.
 
