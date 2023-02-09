@@ -1,0 +1,11 @@
+{:version      {:major 1
+                :minor 0
+                :patch 0}
+ :version-type :semver3
+ :changes      {:added      ["Initial release"]
+                :changed    []
+                :deprecated []
+                :removed    []
+                :fixed      []
+                :security   []}
+ :timestamp    "2022-07-09T04:24:14.064167800Z"}
