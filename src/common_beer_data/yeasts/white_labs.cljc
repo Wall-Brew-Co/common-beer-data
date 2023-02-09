@@ -1152,18 +1152,85 @@
 
 
 (def white-labs
-  (merge wlp001-california-ale wlp002-english-ale wlp003-german-ale-ii wlp004-irish-ale-yeast wlp005-british-ale wlp006-bedford-british-ale wlp007-dry-english-ale
-         wlp008-east-coast-ale wlp009-australian-ale-yeast wlp011-european-ale wlp013-london-ale wlp022-essex-ale-yeast wlp023-burton-ale wlp025-southwold-ale
-         wlp026-premium-bitter-ale wlp028-edinburgh-ale wlp029-german-ale-kolsch wlp033-klassic-ale-yeast wlp036-dusseldorf-alt-yeast wlp037-yorkshire-square-ale-yeast
-         wlp038-manchester-ale-yeast wlp039-nottingham-ale-yeast wlp041-pacific-ale wlp051-california-ale-v wlp060-american-ale-yeast-blend wlp080-cream-ale-yeast-blend
-         wlp090-san-diego-super-yeast wlp099-super-high-gravity-ale wlp300-hefeweizen-ale wlp320-american-hefeweizen-ale wlp351-bavarian-weizen-yeast wlp380-hefeweizen-iv-ale
-         wlp400-belgian-wit-ale wlp410-belgian-wit-ii wlp500-trappist-ale wlp510-bastogne-belgian-ale wlp515-antwerp-ale-yeast wlp530-abbey-ale wlp540-abbey-iv-ale-yeast
-         wlp545-belgian-strong-ale-yeast wlp550-belgian-ale wlp565-belgian-saison-i-ale wlp566-belgian-saison-ii-yeast wlp568-belgian-style-saison-ale-yeast-blend
-         wlp570-belgian-golden-ale wlp575-belgian-style-ale-yeast-blend wlp630-berliner-weisse-blend wlp645-brettanomyces-claussenii wlp650-brettanomyces-bruxellensis
-         wlp653-brettanomyces-lambicus wlp655-belgian-sour-mix-1 wlp670-american-farmhouse-blend wlp675-malolactic-bacteria wlp677-lactobacillus-bacteria
-         wlp700-flor-sherry-yeast wlp705-sake-yeast wlp715-champagne-yeast wlp718-avize-wine-yeast wlp720-sweet-mead-wine wlp727-steinberg-geisenheim-wine
-         wlp730-chardonnay-white-wine-yeast wlp735-french-white-wine-yeast wlp740-merlot-red-wine-yeast wlp749-assmanshausen-wine-yeast
-         wlp750-french-red-wine-yeast wlp760-cabernet-red-wine-yeast wlp770-suremain-burgundy-wine-yeast wlp775-english-cider-yeast
-         wlp800-pilsner-lager wlp802-czech-budejovice-lager wlp810-san-francisco-lager wlp815-belgian-lager-yeast wlp820-octoberfest-marzen-lager
-         wlp830-german-lager wlp833-german-bock-lager wlp838-southern-german-lager wlp840-american-lager-yeast wlp860-munich-helles wlp862-cry-havoc
-         wlp885-zurich-lager wlp920-old-bavarian-lager wlp940-mexican-lager))
+  (merge wlp001-california-ale
+         wlp002-english-ale
+         wlp003-german-ale-ii
+         wlp004-irish-ale-yeast
+         wlp005-british-ale
+         wlp006-bedford-british-ale
+         wlp007-dry-english-ale
+         wlp008-east-coast-ale
+         wlp009-australian-ale-yeast
+         wlp011-european-ale
+         wlp013-london-ale
+         wlp022-essex-ale-yeast
+         wlp023-burton-ale
+         wlp025-southwold-ale
+         wlp026-premium-bitter-ale
+         wlp028-edinburgh-ale
+         wlp029-german-ale-kolsch
+         wlp033-klassic-ale-yeast
+         wlp036-dusseldorf-alt-yeast
+         wlp037-yorkshire-square-ale-yeast
+         wlp038-manchester-ale-yeast
+         wlp039-nottingham-ale-yeast
+         wlp041-pacific-ale
+         wlp051-california-ale-v
+         wlp060-american-ale-yeast-blend
+         wlp080-cream-ale-yeast-blend
+         wlp090-san-diego-super-yeast
+         wlp099-super-high-gravity-ale
+         wlp300-hefeweizen-ale
+         wlp320-american-hefeweizen-ale
+         wlp351-bavarian-weizen-yeast
+         wlp380-hefeweizen-iv-ale
+         wlp400-belgian-wit-ale
+         wlp410-belgian-wit-ii
+         wlp500-trappist-ale
+         wlp510-bastogne-belgian-ale
+         wlp515-antwerp-ale-yeast
+         wlp530-abbey-ale
+         wlp540-abbey-iv-ale-yeast
+         wlp545-belgian-strong-ale-yeast
+         wlp550-belgian-ale
+         wlp565-belgian-saison-i-ale
+         wlp566-belgian-saison-ii-yeast
+         wlp568-belgian-style-saison-ale-yeast-blend
+         wlp570-belgian-golden-ale
+         wlp575-belgian-style-ale-yeast-blend
+         wlp630-berliner-weisse-blend
+         wlp645-brettanomyces-claussenii
+         wlp650-brettanomyces-bruxellensis
+         wlp653-brettanomyces-lambicus
+         wlp655-belgian-sour-mix-1
+         wlp670-american-farmhouse-blend
+         wlp675-malolactic-bacteria
+         wlp677-lactobacillus-bacteria
+         wlp700-flor-sherry-yeast
+         wlp705-sake-yeast
+         wlp715-champagne-yeast
+         wlp718-avize-wine-yeast
+         wlp720-sweet-mead-wine
+         wlp727-steinberg-geisenheim-wine
+         wlp730-chardonnay-white-wine-yeast
+         wlp735-french-white-wine-yeast
+         wlp740-merlot-red-wine-yeast
+         wlp749-assmanshausen-wine-yeast
+         wlp750-french-red-wine-yeast
+         wlp760-cabernet-red-wine-yeast
+         wlp770-suremain-burgundy-wine-yeast
+         wlp775-english-cider-yeast
+         wlp800-pilsner-lager
+         wlp802-czech-budejovice-lager
+         wlp810-san-francisco-lager
+         wlp815-belgian-lager-yeast
+         wlp820-octoberfest-marzen-lager
+         wlp830-german-lager
+         wlp833-german-bock-lager
+         wlp838-southern-german-lager
+         wlp840-american-lager-yeast
+         wlp860-munich-helles
+         wlp862-cry-havoc
+         wlp885-zurich-lager
+         wlp920-old-bavarian-lager
+         wlp940-mexican-lager))

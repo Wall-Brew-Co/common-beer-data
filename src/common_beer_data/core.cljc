@@ -1,5 +1,5 @@
 (ns common-beer-data.core
-  "Quick functions and references to ingredient data"
+  "Quick functions and references to ingredient data."
   (:require [common-beer-data.fermentables.adjuncts :as adjuncts]
             [common-beer-data.fermentables.dry-extracts :as dry-extracts]
             [common-beer-data.fermentables.extracts :as extracts]
@@ -34,18 +34,14 @@
     include-sugars?       (merge sugars/sugars)))
 
 
-#_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
-
-
 (def all-fermentables
+  "A map from keywords to `common-beer-format.fermentables/fermentable` maps for all fermentables.
+   This is a convenience function for `select-fermentables` with all options set to true."
   (select-fermentables {:include-adjuncts?     true
                         :include-dry-extracts? true
                         :include-extracts?     true
                         :include-grains?       true
                         :include-sugars?       true}))
-
-
-#_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
 
 
 (defn get-fermentable
@@ -73,16 +69,12 @@
     include-both?      (merge both/both)))
 
 
-#_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
-
-
 (def all-hops
+  "A map from keywords to `common-beer-format.hops/hop` maps for all hops.
+   This is a convenience function for `select-hops` with all options set to true."
   (select-hops {:include-aroma?     true
                 :include-bittering? true
                 :include-both?      true}))
-
-
-#_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
 
 
 (defn get-hop
@@ -106,10 +98,9 @@
     include-bjcp-2015? (merge bjcp-2015/all-styles)))
 
 
-#_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
-
-
 (def all-style-guides
+  "A map from keywords to `common-beer-format.stlyes/style` maps for all style guides.
+   This is a convenience function for `select-style-guides` with all options set to true."
   (select-style-guides {:include-bjcp-2015? true}))
 
 
@@ -131,10 +122,9 @@
     include-wyeast?        (merge wyeast/wyeast)))
 
 
-#_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
-
-
 (def all-yeasts
+  "A map from keywords to `common-beer-format.yeasts/yeast` maps for all yeasts.
+   This is a convenience function for `select-yeasts` with all options set to true."
   (select-yeasts {:include-brewtek?       true
                   :include-dcl-fermentis? true
                   :include-lallemand?     true

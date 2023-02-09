@@ -15,7 +15,7 @@
             [lein-project-version "0.1.0"]
             [mvxcvi/cljstyle "0.15.0"]]
   :profiles {:uberjar {:aot :all}
-             :dev     {:dependencies [[com.wallbrew/common-beer-format "2.1.0"]
+             :dev     {:dependencies [[com.wallbrew/common-beer-format "2.2.0"]
                                       [com.wallbrew/spoon "1.1.0"]
                                       [doo "0.1.11"]
                                       [org.clojure/spec.alpha "0.3.218"]]

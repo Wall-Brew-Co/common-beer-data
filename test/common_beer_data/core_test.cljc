@@ -1,5 +1,5 @@
 (ns common-beer-data.core-test
-  (:require [clojure.spec.alpha :as s]
+  (:require [com.wallbrew.spoon.spec :as spoon.spec]
             [common-beer-data.core :as data]
             [common-beer-format.fermentables :as fermentables]
             [common-beer-format.hops :as hops]
@@ -13,28 +13,28 @@
   (testing "Ensure all fermentables are well formed"
     (is (seq data/all-fermentables))
     (is (every? keyword? (keys data/all-fermentables)))
-    (is (every? #(s/valid? ::fermentables/fermentable %) (vals data/all-fermentables)))))
+    (is (every? #(spoon.spec/test-valid? ::fermentables/fermentable %) (vals data/all-fermentables)))))
 
 
 (deftest hops-test
   (testing "Ensure all hops are well formed"
     (is (seq data/all-hops))
     (is (every? keyword? (keys data/all-hops)))
-    (is (every? #(s/valid? ::hops/hop %) (vals data/all-hops)))))
+    (is (every? #(spoon.spec/test-valid? ::hops/hop %) (vals data/all-hops)))))
 
 
 (deftest style-test
   (testing "Ensure all styles are well formed"
     (is (seq data/all-style-guides))
     (is (every? keyword? (keys data/all-style-guides)))
-    (is (every? #(s/valid? ::styles/style %) (vals data/all-style-guides)))))
+    (is (every? #(spoon.spec/test-valid? ::styles/style %) (vals data/all-style-guides)))))
 
 
 (deftest yeast-test
   (testing "Ensure all yeasts are well formed"
     (is (seq data/all-yeasts))
     (is (every? keyword? (keys data/all-yeasts)))
-    (is (every? #(s/valid? ::yeasts/yeast %) (vals data/all-yeasts)))))
+    (is (every? #(spoon.spec/test-valid? ::yeasts/yeast %) (vals data/all-yeasts)))))
 
 
 (deftest select-*-tests
@@ -75,15 +75,15 @@
 
 (deftest get-*-tests
   (testing "Basic tests around selection of ingredients"
-    (is (s/valid? ::fermentables/fermentable (data/get-fermentable :light-dry-extract)))
-    (is (s/valid? ::fermentables/fermentable (data/get-fermentable :light-dry-extract :a)))
+    (is (spoon.spec/test-valid? ::fermentables/fermentable (data/get-fermentable :light-dry-extract)))
+    (is (spoon.spec/test-valid? ::fermentables/fermentable (data/get-fermentable :light-dry-extract :a)))
     (is (nil? (data/get-fermentable :ope)))
     (is (= :baz (data/get-fermentable :ope :baz)))
-    (is (s/valid? ::hops/hop (data/get-hop :crystal)))
-    (is (s/valid? ::hops/hop (data/get-hop :crystal :a)))
+    (is (spoon.spec/test-valid? ::hops/hop (data/get-hop :crystal)))
+    (is (spoon.spec/test-valid? ::hops/hop (data/get-hop :crystal :a)))
     (is (nil? (data/get-hop :ope)))
     (is (= :baz (data/get-hop :ope :baz)))
-    (is (s/valid? ::yeasts/yeast (data/get-yeast :german-ale-1007)))
-    (is (s/valid? ::yeasts/yeast (data/get-yeast :german-ale-1007 :a)))
+    (is (spoon.spec/test-valid? ::yeasts/yeast (data/get-yeast :german-ale-1007)))
+    (is (spoon.spec/test-valid? ::yeasts/yeast (data/get-yeast :german-ale-1007 :a)))
     (is (nil? (data/get-yeast :ope)))
     (is (= :baz (data/get-yeast :ope :baz)))))

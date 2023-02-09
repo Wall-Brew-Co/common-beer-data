@@ -9,6 +9,7 @@
 
 
 (defn build-yeasts
+  "Construct a yeast, including display/range values derived from core yeast data."
   [yeast-key yeast-data]
   (let [display-min-temp (str (:min-temperature yeast-data) "C")
         display-max-temp (str (:max-temperature yeast-data) "C")

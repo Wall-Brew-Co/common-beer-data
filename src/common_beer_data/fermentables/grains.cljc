@@ -14,6 +14,10 @@
 
 
 (def acid-malt
+  "Acid malt contains acids from natural lactic acids.
+   
+   Used by German brewers to adjust malt PH without chemicals to adhere to German purity laws.
+   Also enhances head retention."
   (build-grain :acid-malt {:name             "Acid Malt"
                            :potential        1.027
                            :yield            0.587
@@ -29,6 +33,10 @@
 
 
 (def amber-malt
+  "Roasted specialty malt used in some English browns, milds and old ales to add color and a biscuit taste.
+   
+   Intense flavor - so limit use.
+   Low diastatic power so must be mashed with well modified malts."
   (build-grain :amber-malt {:name             "Amber Malt"
                             :potential        1.035
                             :yield            0.75
@@ -44,6 +52,7 @@
 
 
 (def aromatic-malt
+  "Provides a very strong malt flavor and aroma to your beer."
   (build-grain :aromatic-malt {:name             "Aromatic Malt"
                                :potential        1.036
                                :yield            0.78
@@ -59,6 +68,9 @@
 
 
 (def barley-flaked
+  "Adds significant body to Porters and Stouts.
+   
+   High haze producing protein prevents use in light beers."
   (build-grain :barley-flaked {:name             "Barley, Flaked"
                                :potential        1.032
                                :yield            0.7
@@ -74,6 +86,10 @@
 
 
 (def barley-raw
+  "Raw, unmalted barley can be used to add body to your beer.
+   
+   Use in homebrew requires very fine milling combined with a decoction or multi-stage mash.
+   Performs best when used in small quantities with well modified grains."
   (build-grain :barley-raw {:name             "Barley, Raw"
                             :potential        1.028
                             :yield            0.609
@@ -89,6 +105,10 @@
 
 
 (def barley-torrefied
+  "Raw barley that has been popped to open the kernels.
+   
+   Used in place of raw barley for faster conversion and higher yields.
+   High in haze producing protein"
   (build-grain :barley-torrefied {:name             "Barley, Torrefied"
                                   :potential        1.036
                                   :yield            0.79
@@ -104,6 +124,10 @@
 
 
 (def biscuit-malt
+  "Use for English ales, brown ales and porters.
+   
+   Adds a biscuit like flavor and aroma.
+   Can be used as a substitute for toasted malt."
   (build-grain :biscuit-malt {:name             "Biscuit Malt"
                               :potential        1.036
                               :yield            0.79
@@ -119,6 +143,9 @@
 
 
 (def black-patent-malt
+  "Dark color and dry roasted flavor characteristic of Stouts and Porters.
+   
+   Used for: Coloring in small amounts, or flavoring of Stouts and Porters in larger amounts."
   (build-grain :black-patent-malt {:name             "Black (Patent) Malt"
                                    :potential        1.025
                                    :yield            0.55
@@ -134,6 +161,10 @@
 
 
 (def black-barley-stout
+  "Unmalted barley roasted at high temperature to create a dry, coffee like flavor.
+   
+   Imparts a sharp acrid flavor characteristic of dry stouts.
+   Gives dryness to a stout or porter."
   (build-grain :black-barley-stout {:name             "Black Barley (Stout)"
                                     :potential        1.025
                                     :yield            0.55
@@ -149,6 +180,9 @@
 
 
 (def brown-malt
+  "Imparts a dry, biscuit flavor.
+   
+   Used in nut brown ales, porters and some Belgian ales."
   (build-grain :brown-malt {:name             "Brown Malt"
                             :potential        1.032
                             :yield            0.7
@@ -164,6 +198,9 @@
 
 
 (def brumalt
+  "Dark German malt developed to add malt flavor of Alt, Marzen and Oktoberfest beers.
+   
+   Helps create authentic maltiness without having to do a decoction mash."
   (build-grain :brumalt {:name             "Brumalt"
                          :potential        1.033
                          :yield            0.717
@@ -179,6 +216,7 @@
 
 
 (def cara-pils-dextrine
+  "Significantly increases foam/head retention and body of the beer."
   (build-grain :cara-pils-dextrine {:name             "Cara-Pils/Dextrine"
                                     :potential        1.033
                                     :yield            0.72
@@ -194,6 +232,7 @@
 
 
 (def carafoam
+  "Significantly increases foam/head retention and body of the beer."
   (build-grain :carafoam {:name             "CaraFoam"
                           :potential        1.033
                           :yield            0.72
@@ -209,6 +248,7 @@
 
 
 (def dextrine
+  "Significantly increases foam/head retention and body of the beer."
   (build-grain :dextrine {:name             "Dextrine"
                           :potential        1.033
                           :yield            0.72
@@ -224,6 +264,7 @@
 
 
 (def caraamber
+  "Adds body, color and improves head retention."
   (build-grain :caraamber {:name             "Caraamber"
                            :potential        1.035
                            :yield            0.75
@@ -239,6 +280,7 @@
 
 
 (def caramel-crystal-malt-10l
+  "Adds body, color and improves head retention."
   (build-grain :caramel-crystal-malt-10l {:name             "Caramel/Crystal Malt - 10L"
                                           :potential        1.035
                                           :yield            0.75
@@ -254,6 +296,7 @@
 
 
 (def caramel-crystal-malt-20l
+  "Adds body, color and improves head retention."
   (build-grain :caramel-crystal-malt-20l {:name             "Caramel/Crystal Malt - 20L"
                                           :potential        1.035
                                           :yield            0.75
@@ -269,6 +312,7 @@
 
 
 (def caramel-crystal-malt-30l
+  "Adds body, color and improves head retention."
   (build-grain :caramel-crystal-malt-30l {:name             "Caramel/Crystal Malt - 30L"
                                           :potential        1.035
                                           :yield            0.75
@@ -284,6 +328,7 @@
 
 
 (def caramel-crystal-malt-40l
+  "Adds body, color and improves head retention."
   (build-grain :caramel-crystal-malt-40l {:name             "Caramel/Crystal Malt - 40L"
                                           :potential        1.034
                                           :yield            0.74
@@ -299,6 +344,7 @@
 
 
 (def caramel-crystal-malt-60l
+  "Adds body, color and improves head retention."
   (build-grain :caramel-crystal-malt-60l {:name             "Caramel/Crystal Malt - 60L"
                                           :potential        1.034
                                           :yield            0.74
@@ -314,6 +360,7 @@
 
 
 (def caramel-crystal-malt-80l
+  "Adds body, color and improves head retention."
   (build-grain :caramel-crystal-malt-80l {:name             "Caramel/Crystal Malt - 80L"
                                           :potential        1.034
                                           :yield            0.74
@@ -329,6 +376,7 @@
 
 
 (def caramel-crystal-malt-90l
+  "Adds body, color and improves head retention."
   (build-grain :caramel-crystal-malt-90l {:name             "Caramel/Crystal Malt - 90L"
                                           :potential        1.034
                                           :yield            0.74
@@ -344,6 +392,7 @@
 
 
 (def caramel-crystal-malt-120l
+  "Adds body, color and improves head retention."
   (build-grain :caramel-crystal-malt-120l {:name             "Caramel/Crystal Malt - 120L"
                                            :potential        1.033
                                            :yield            0.72
@@ -359,6 +408,7 @@
 
 
 (def caramel-crystal-malt-140l
+  "Adds body, color and improves head retention."
   (build-grain :caramel-crystal-malt-140l {:name             "Caramel/Crystal Malt - 140L"
                                            :potential        1.033
                                            :yield            0.72
@@ -374,6 +424,7 @@
 
 
 (def caramel-crystal-malt-160l
+  "Adds body, color and improves head retention."
   (build-grain :caramel-crystal-malt-160l {:name             "Caramel/Crystal Malt - 160L"
                                            :potential        1.033
                                            :yield            0.72
@@ -389,6 +440,9 @@
 
 
 (def caramunich-malt
+  "Caramel, copper colored malt.
+   
+   Used in Belgian ales and German bocks."
   (build-grain :caramunich-malt {:name             "Caramunich Malt"
                                  :potential        1.033
                                  :yield            0.717
@@ -404,6 +458,7 @@
 
 
 (def carared
+  "Adds body, color and improves head retention."
   (build-grain :carared {:name             "Carared"
                          :potential        1.035
                          :yield            0.75
@@ -419,6 +474,9 @@
 
 
 (def caravienne-malt
+  "Light Belgian crystal malt.
+   
+   Used in light Trappist and Abbey style Belgian ales."
   (build-grain :caravienne-malt {:name             "Caravienne Malt"
                                  :potential        1.034
                                  :yield            0.739
@@ -434,6 +492,9 @@
 
 
 (def chocolate-malt
+  "Dark malt that gives a rich red or brown color and nutty flavor.
+   
+   Maintains some malty flavor, not as dark as roasted malt."
   (build-grain :chocolate-malt {:name             "Chocolate Malt"
                                 :potential        1.028
                                 :yield            0.6
@@ -449,6 +510,9 @@
 
 
 (def chocolate-malt-uk
+  "Dark malt that gives a rich red or brown color and nutty flavor.
+   
+   Maintains some malty flavor, not as dark as roasted malt."
   (build-grain :chocolate-malt-uk {:name             "Chocolate Malt (UK)"
                                    :potential        1.034
                                    :yield            0.73
@@ -464,6 +528,7 @@
 
 
 (def corn-flaked
+  "Generally a neutral flavor; used to reduce maltiness of beer."
   (build-grain :corn-flaked {:name             "Corn (Flaked)"
                              :potential        1.030
                              :yield            0.825
@@ -479,6 +544,7 @@
 
 
 (def maris-otter-pale-malt
+  "A base malt from the UK."
   (build-grain :maris-otter-pale-malt {:name             "Maris Otter Pale Malt"
                                        :potential        1.037
                                        :yield            0.8
@@ -494,6 +560,10 @@
 
 
 (def melanoiden-malt
+  "Aromatic malt from Banberg, Germany.
+   
+   Promotes a full flavor and rounds off beer color.
+   Promotes deep red color and malty flavor."
   (build-grain :melanoiden-malt {:name             "Melanoiden Malt"
                                  :potential        1.037
                                  :yield            0.8
@@ -509,6 +579,7 @@
 
 
 (def mild-malt
+  "Also called 'English Mild' - a light specialty malt used in Brown Ales"
   (build-grain :mild-malt {:name             "Mild Malt"
                            :potential        1.037
                            :yield            0.8
@@ -524,6 +595,9 @@
 
 
 (def munich-malt
+  "Malty-sweet flavor characteristic and adds a reddish amber color to the beer.
+   
+   Does not contribute signficantly to body or head retention."
   (build-grain :munich-malt {:name             "Munich Malt"
                              :potential        1.037
                              :yield            0.8
@@ -539,6 +613,7 @@
 
 
 (def munich-malt-10l
+  "Malty-sweet flavor characteristic and adds a slight orange color to the beer."
   (build-grain :munich-malt-10l {:name             "Munich Malt - 10L"
                                  :potential        1.035
                                  :yield            0.77
@@ -554,6 +629,7 @@
 
 
 (def munich-malt-20l
+  "Malty-sweet flavor characteristic and adds a slight orange color to the beer."
   (build-grain :munich-malt-20l {:name             "Munich Malt - 20L"
                                  :potential        1.035
                                  :yield            0.75
@@ -569,6 +645,10 @@
 
 
 (def oats-flaked
+  "Adds body, mouth feel and head retention to the beer.
+   
+   Adds substantial protein haze to light beers.
+   Protein rest recommended unless flakes are pre-gelatinized."
   (build-grain :oats-flaked {:name             "Oats, Flaked"
                              :potential        1.037
                              :yield            0.8
@@ -584,6 +664,9 @@
 
 
 (def oats-malted
+  "Malted oats. Adds body, mouth feel and head retention to the beer.
+   
+   Creates chill haze in lighter beers, so is primarily used in dark ones."
   (build-grain :oats-malted {:name             "Oats, Malted"
                              :potential        1.037
                              :yield            0.8
@@ -595,10 +678,11 @@
                              :diastatic-power  0
                              :max-in-batch     0.1
                              :protein          0.09
-                             :notes            "Malted oats. Adds body, mouth feel and head retention to the beer Creates chill haze in lighter beers, so is primarily used in dark ones."}))
+                             :notes            "Malted oats. Adds body, mouth feel and head retention to the beer. Creates chill haze in lighter beers, so is primarily used in dark ones."}))
 
 
 (def pale-malt-2-row-belgium
+  "Base malt for all beer styles."
   (build-grain :pale-malt-2-row-belgium {:name             "Pale Malt (2 Row) - Belgium"
                                          :potential        1.037
                                          :yield            0.8
@@ -610,10 +694,11 @@
                                          :diastatic-power  60
                                          :max-in-batch     1
                                          :protein          0.105
-                                         :notes            "Base malt for all beer styles"}))
+                                         :notes            "Base malt for all beer styles."}))
 
 
 (def pale-malt-2-row-uk
+  "Base malt for all beer styles."
   (build-grain :pale-malt-2-row-uk {:name             "Pale Malt (2 Row) - UK"
                                     :potential        1.036
                                     :yield            0.78
@@ -629,6 +714,7 @@
 
 
 (def pale-malt-2-row-us
+  "Base malt for all beer styles."
   (build-grain :pale-malt-2-row-us {:name             "Pale Malt (2 Row) - USA"
                                     :potential        1.036
                                     :yield            0.79
@@ -644,6 +730,7 @@
 
 
 (def pale-malt-6-row-us
+  "Base malt for all beer styles."
   (build-grain :pale-malt-6-row-us {:name             "Pale Malt (6 Row) - USA"
                                     :potential        1.035
                                     :yield            0.76
@@ -659,6 +746,9 @@
 
 
 (def peat-smoked-malt
+  "Robust smoky malt that provides a smoky flavor.
+   
+   Used in scottish ales and wee heavy ales."
   (build-grain :peat-smoked-malt {:name             "Peat Smoked Malt"
                                   :potential        1.034
                                   :yield            0.74
@@ -674,6 +764,7 @@
 
 
 (def pilsner-2-row-belgium
+  "Belgian base malt for Continental lagers."
   (build-grain :pilsner-2-row-belgium {:name             "Pilsner (2 Row) - Belgium"
                                        :potential        1.036
                                        :yield            0.79
@@ -689,6 +780,7 @@
 
 
 (def pilsner-2-row-germany
+  "German base for Pilsners and Bohemian Lagers."
   (build-grain :pilsner-2-row-germany {:name             "Pilsner (2 Row) - Germany"
                                        :potential        1.037
                                        :yield            0.81
@@ -704,6 +796,7 @@
 
 
 (def pilsner-2-row-uk
+  "Pilsner base malt."
   (build-grain :pilsner-2-row-uk {:name             "Pilsner (2 Row) - UK"
                                   :potential        1.036
                                   :yield            0.78
@@ -719,6 +812,9 @@
 
 
 (def rice-flaked
+  "Used to add fermentable sugar without increasing body.
+   
+   Produces a milder, less grainy tasting beer."
   (build-grain :rice-flaked {:name             "Rice, Flaked"
                              :potential        1.032
                              :yield            0.7
@@ -734,6 +830,9 @@
 
 
 (def roasted-barley
+  "Roasted at high temperature to create a burnt, grainy, coffee like flavor.
+   
+   Imparts a red to deep brown color to beer, and very strong roasted flavor."
   (build-grain :roasted-barley {:name             "Roasted Barley"
                                 :potential        1.025
                                 :yield            0.55
@@ -749,6 +848,9 @@
 
 
 (def rye-malt
+  "Adds a dry, crisp character to the beer.
+   
+   Yields a deep red color, and a distinctive rye flavor"
   (build-grain :rye-malt {:name             "Rye Malt"
                           :potential        1.029
                           :yield            0.63
@@ -764,6 +866,7 @@
 
 
 (def rye-flaked
+  "Imparts a dry, crisp rye flavor to rye beers. Can be easier to mash than raw rye."
   (build-grain :rye-flaked {:name             "Rye, Flaked"
                             :potential        1.036
                             :yield            0.783
@@ -779,6 +882,7 @@
 
 
 (def smoked-malt
+  "Malt that has been smoked over an open fire. Creates a distinctive smoke flavor and aroma."
   (build-grain :smoked-malt {:name             "Smoked Malt"
                              :potential        1.037
                              :yield            0.8
@@ -794,6 +898,9 @@
 
 
 (def special-b-malt
+  "Extreme caramel aroma and flavored malt.
+   
+   Used in dark Belgian Abbey and Trappist ales."
   (build-grain :special-b-malt {:name             "Special B Malt"
                                 :potential        1.030
                                 :yield            0.652
@@ -809,6 +916,9 @@
 
 
 (def special-roast
+  "Use for English ales, nut brown ales and porters.
+   
+   Adds a toasted, biscuit like flavor and aroma."
   (build-grain :special-roast {:name             "Special Roast"
                                :potential        1.033
                                :yield            0.72
@@ -824,6 +934,7 @@
 
 
 (def toasted-malt
+  "Similar to Biscuit or Victory malt, this malt adds reddish/orange color and improved body without sweetness along with a toasted flavor."
   (build-grain :toasted-malt {:name             "Toasted Malt"
                               :potential        1.033
                               :yield            0.717
@@ -839,6 +950,7 @@
 
 
 (def victory-malt
+  "Toasted malt that adds a Biscuit or toasted flavor to English ales."
   (build-grain :victory-malt {:name             "Victory Malt"
                               :potential        1.034
                               :yield            0.73
@@ -854,6 +966,9 @@
 
 
 (def vienna-malt
+  "Kiln dried malt darker than Pale Malt, but not as dark as Munich Malt.
+   
+   Imparts a golden to orange color to the beer."
   (build-grain :vienna-malt {:name             "Vienna Malt"
                              :potential        1.036
                              :yield            0.78
@@ -869,6 +984,7 @@
 
 
 (def wheat-malt-belgium
+  "Malted wheat for use in Wheat beers."
   (build-grain :wheat-malt-belgium {:name             "Wheat Malt - Belgium"
                                     :potential        1.037
                                     :yield            0.81
@@ -880,25 +996,27 @@
                                     :diastatic-power  74
                                     :max-in-batch     0.6
                                     :protein          0.115
-                                    :notes            "Malted wheat for use in Wheat beers"}))
+                                    :notes            "Malted wheat for use in Wheat beers."}))
 
 
 (def dark-wheat-malt
-  (build-grain :dark-wheat-malt {:name "Dark Wheat Malt"
-                                 :potential 1.039
-                                 :yield 0.84
+  "Dark malted wheat base for use in dark wheat styles such as Dunkleweizen."
+  (build-grain :dark-wheat-malt {:name             "Dark Wheat Malt"
+                                 :potential        1.039
+                                 :yield            0.84
                                  :coarse-fine-diff 0.015
-                                 :moisture 0.035
-                                 :color 9
-                                 :recommend-mash true
-                                 :add-after-boil false
-                                 :diastatic-power 10
-                                 :max-in-batch 0.2
-                                 :protein 0.115
-                                 :notes "Dark malted wheat base for use in dark wheat styles such as Dunkleweizen."}))
+                                 :moisture         0.035
+                                 :color            9
+                                 :recommend-mash   true
+                                 :add-after-boil   false
+                                 :diastatic-power  10
+                                 :max-in-batch     0.2
+                                 :protein          0.115
+                                 :notes            "Dark malted wheat base for use in dark wheat styles such as Dunkleweizen."}))
 
 
 (def wheat-malt-germany
+  "Malted wheat base for use in all wheat styles."
   (build-grain :wheat-malt-germany {:name             "Wheat Malt - Germany"
                                     :potential        1.039
                                     :yield            0.84
@@ -910,10 +1028,13 @@
                                     :diastatic-power  95
                                     :max-in-batch     0.6
                                     :protein          0.125
-                                    :notes            "Malted wheat base for use in all wheat styles"}))
+                                    :notes            "Malted wheat base for use in all wheat styles."}))
 
 
 (def wheat-flaked
+  "Flaked wheat adds to increased body and foam retention.
+   
+   May be used in small amounts to improve head retention and body."
   (build-grain :wheat-flaked {:name             "Wheat, Flaked"
                               :potential        1.035
                               :yield            0.77
@@ -929,21 +1050,27 @@
 
 
 (def wheat-roasted
-  (build-grain :wheat-roasted {:name "Wheat, Roasted"
-                               :potential 1.025
-                               :yield 0.543
+  "Also called Chocolate Wheat Malt.
+   
+   Adds a deep, dark brown color to dunkelweizens and other dark beer styles."
+  (build-grain :wheat-roasted {:name             "Wheat, Roasted"
+                               :potential        1.025
+                               :yield            0.543
                                :coarse-fine-diff 0.015
-                               :moisture 0.04
-                               :color 425
-                               :recommend-mash true
-                               :add-after-boil false
-                               :diastatic-power 0
-                               :max-in-batch 0.1
-                               :protein 0.13
-                               :notes "Also called Chocolate Wheat Malt. Adds a deep, dark brown color to dunkelweizens and other dark beer styles."}))
+                               :moisture         0.04
+                               :color            425
+                               :recommend-mash   true
+                               :add-after-boil   false
+                               :diastatic-power  0
+                               :max-in-batch     0.1
+                               :protein          0.13
+                               :notes            "Also called Chocolate Wheat Malt. Adds a deep, dark brown color to dunkelweizens and other dark beer styles."}))
 
 
 (def wheat-torrified
+  "Unmodified wheat that has been popped to open the kernels.
+   
+   Protein rest recommended when mashing."
   (build-grain :wheat-torrified {:name             "Wheat, Torrified"
                                  :potential        1.036
                                  :yield            0.79
@@ -959,6 +1086,7 @@
 
 
 (def white-wheat-malt
+  "White wheat gives a malty flavor not available from raw wheat."
   (build-grain :white-wheat-malt {:name             "White Wheat Malt"
                                   :potential        1.040
                                   :yield            0.86
@@ -974,10 +1102,68 @@
 
 
 (def grains
-  (merge acid-malt amber-malt aromatic-malt barley-flaked barley-raw barley-torrefied biscuit-malt black-patent-malt black-barley-stout brown-malt brumalt
-         cara-pils-dextrine carafoam dextrine caraamber caramel-crystal-malt-10l caramel-crystal-malt-20l caramel-crystal-malt-30l caramel-crystal-malt-40l
-         caramel-crystal-malt-60l caramel-crystal-malt-80l caramel-crystal-malt-90l caramel-crystal-malt-120l caramel-crystal-malt-140l caramel-crystal-malt-160l
-         caramunich-malt carared caravienne-malt chocolate-malt chocolate-malt-uk corn-flaked melanoiden-malt mild-malt munich-malt munich-malt-10l munich-malt-20l
-         oats-flaked oats-malted maris-otter-pale-malt pale-malt-2-row-belgium pale-malt-2-row-uk pale-malt-2-row-us pale-malt-6-row-us peat-smoked-malt
-         pilsner-2-row-belgium pilsner-2-row-germany pilsner-2-row-uk rice-flaked roasted-barley rye-malt rye-flaked smoked-malt special-b-malt special-roast
-         toasted-malt victory-malt vienna-malt wheat-malt-belgium dark-wheat-malt wheat-malt-germany wheat-flaked wheat-roasted wheat-torrified white-wheat-malt))
+  "Whole or milled barley, rye, wheat, or other grain."
+  (merge acid-malt
+         amber-malt
+         aromatic-malt
+         barley-flaked
+         barley-raw
+         barley-torrefied
+         biscuit-malt
+         black-patent-malt
+         black-barley-stout
+         brown-malt
+         brumalt
+         cara-pils-dextrine
+         carafoam
+         dextrine
+         caraamber
+         caramel-crystal-malt-10l
+         caramel-crystal-malt-20l
+         caramel-crystal-malt-30l
+         caramel-crystal-malt-40l
+         caramel-crystal-malt-60l
+         caramel-crystal-malt-80l
+         caramel-crystal-malt-90l
+         caramel-crystal-malt-120l
+         caramel-crystal-malt-140l
+         caramel-crystal-malt-160l
+         caramunich-malt
+         carared
+         caravienne-malt
+         chocolate-malt
+         chocolate-malt-uk
+         corn-flaked
+         melanoiden-malt
+         mild-malt
+         munich-malt
+         munich-malt-10l
+         munich-malt-20l
+         oats-flaked
+         oats-malted
+         maris-otter-pale-malt
+         pale-malt-2-row-belgium
+         pale-malt-2-row-uk
+         pale-malt-2-row-us
+         pale-malt-6-row-us
+         peat-smoked-malt
+         pilsner-2-row-belgium
+         pilsner-2-row-germany
+         pilsner-2-row-uk
+         rice-flaked
+         roasted-barley
+         rye-malt
+         rye-flaked
+         smoked-malt
+         special-b-malt
+         special-roast
+         toasted-malt
+         victory-malt
+         vienna-malt
+         wheat-malt-belgium
+         dark-wheat-malt
+         wheat-malt-germany
+         wheat-flaked
+         wheat-roasted
+         wheat-torrified
+         white-wheat-malt))

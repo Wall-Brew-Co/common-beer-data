@@ -15,6 +15,7 @@
 
 
 (def amber-liquid-extract
+  "Amber colored liquid malt extract for general purpose use."
   (build-extract :amber-liquid-extract {:name           "Amber Liquid Extract"
                                         :yield          0.78
                                         :color          13
@@ -25,6 +26,7 @@
 
 
 (def dark-liquid-extract
+  "For general-purpose use in darker beers."
   (build-extract :dark-liquid-extract {:name           "Dark Liquid Extract"
                                        :yield          0.78
                                        :color          18
@@ -35,16 +37,20 @@
 
 
 (def honey
+  "Used for light flavor and body. 
+   
+   Can be added to primary fermentation, but must be pasteurized."
   (build-extract :honey {:name           "Honey"
                          :yield          0.75
                          :color          1
                          :add-after-boil true
                          :max-in-batch   0.3
                          :potential      1.035
-                         :notes          "Used for light flavor and body. Can be added to primary fermentation, but must be pasteurized"}))
+                         :notes          "Used for light flavor and body. Can be added to primary fermentation, but must be pasteurized."}))
 
 
 (def pale-liquid-extract
+  "For general-purpose use in light and pale beers."
   (build-extract :pale-liquid-extract {:name           "Pale Liquid Extract"
                                        :yield          0.78
                                        :color          8
@@ -55,6 +61,7 @@
 
 
 (def pilsner-liquid-extract
+  "For general-purpose use in pale beers."
   (build-extract :pilsner-liquid-extract {:name           "Pilsner Liquid Extract"
                                           :yield          0.78
                                           :color          4
@@ -65,6 +72,7 @@
 
 
 (def rice-extract-syrup
+  "Used like other rice adjuncts in American and Japanese lagers."
   (build-extract :rice-extract-syrup {:name           "Rice Extract Syrup"
                                       :yield          0.69
                                       :color          7
@@ -75,6 +83,7 @@
 
 
 (def rye-liquid-extract
+  "Mixed rye/barley extract for general-purpose brewing."
   (build-extract :rye-liquid-extract {:name           "Rye Liquid Extract"
                                       :yield          0.69
                                       :color          7
@@ -85,6 +94,9 @@
 
 
 (def sorghum-syrup
+  "A gluten-free extract based on sorghum grain.
+   
+   Can be used as a substitute for Light Malt Extract."
   (build-extract :sorghum-syrup {:name           "Sorghum Syrup"
                                  :yield          0.78
                                  :color          7
@@ -95,6 +107,7 @@
 
 
 (def wheat-liquid-extract
+  "Wheat/barley extract for general-purpose use in wheat beers."
   (build-extract :wheat-liquid-extract {:name           "Wheat Liquid Extract"
                                         :yield          0.78
                                         :color          8
@@ -105,4 +118,13 @@
 
 
 (def extracts
-  (merge amber-liquid-extract dark-liquid-extract honey pale-liquid-extract pilsner-liquid-extract rice-extract-syrup rye-liquid-extract sorghum-syrup wheat-liquid-extract))
+  "A concentrated form of fermentable sugars derived from malted barley in liquid form."
+  (merge amber-liquid-extract
+         dark-liquid-extract
+         honey
+         pale-liquid-extract
+         pilsner-liquid-extract
+         rice-extract-syrup
+         rye-liquid-extract
+         sorghum-syrup
+         wheat-liquid-extract))
