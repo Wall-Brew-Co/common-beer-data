@@ -6,8 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## Table of Contents
 
+* [1.2.0 - 2023-02-10](#120---2023-02-10)
 * [1.1.0 - 2023-02-09](#110---2023-02-09)
 * [1.0.0 - 2022-07-09](#100---2022-07-09)
+
+## 1.2.0 - 2023-02-10
+
+* Added
+  * Docstrings for all internal vars.
 
 ## 1.1.0 - 2023-02-09
 

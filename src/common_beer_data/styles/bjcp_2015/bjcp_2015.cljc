@@ -1,5 +1,5 @@
 (ns common-beer-data.styles.bjcp-2015.bjcp-2015
-  "Quick access to all 2015 BJCP styles"
+  "Quick access to all 2015 BJCP styles."
   (:require [common-beer-data.styles.bjcp-2015.alternative-fermentables-beer :as alternative-fermentables-beer]
             [common-beer-data.styles.bjcp-2015.amber-and-brown-american-beer :as amber-and-brown-american-beer]
             [common-beer-data.styles.bjcp-2015.amber-bitter-european-beer :as amber-bitter-european-beer]
@@ -37,6 +37,9 @@
 
 
 (def all-styles
+  "All styles covered in the 2015 BJCP style guide.
+   
+   A copy of the official guidelines may be found here: https://legacy.bjcp.org/docs/2015_Guidelines_Beer.pdf"
   (merge alternative-fermentables-beer/alternative-fermentables-beer
          amber-and-brown-american-beer/amber-and-brown-american-beer
          amber-bitter-european-beer/amber-bitter-european-beer

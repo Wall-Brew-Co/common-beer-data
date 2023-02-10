@@ -3,7 +3,7 @@
 
 
 (def ^:private style-defaults
-  {:version 1
+  {:version     1
    :style-guide "BJCP 2015"})
 
 
