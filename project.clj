@@ -23,6 +23,10 @@
 
   :min-lein-version "2.5.3"
   :deploy-branches ["master"]
+  :deploy-repositories [["clojars" {:url           "https://clojars.org/repo"
+                                    :username      :env/clojars_user
+                                    :password      :env/clojars_pass
+                                    :sign-releases false}]]
   :aliases {"test-build" ["do" "clean" ["cljsbuild" "once" "test"] ["doo" "once"] ["test"]]}
 
   :cljsbuild {:builds [{:id           "test"
