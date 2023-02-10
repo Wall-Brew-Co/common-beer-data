@@ -17,33 +17,36 @@
 
 (def barley-hulls
   "Neutral hulls used to improve lautering."
-  (build-adjunct :barley-hulls {:name         "Barley Hulls"
-                                :yield        0.0
-                                :color        0
-                                :max-in-batch 0.05
-                                :potential    1.0
-                                :notes        "Neutral hulls used to improve lautering."}))
+  (build-adjunct :barley-hulls
+                 {:name         "Barley Hulls"
+                  :yield        0.0
+                  :color        0
+                  :max-in-batch 0.05
+                  :potential    1.0
+                  :notes        "Neutral hulls used to improve lautering."}))
 
 
 (def grits
   "Imparts a corn and grain taste."
-  (build-adjunct :grits {:name           "Grits"
-                         :yield          0.8
-                         :color          1
-                         :recommend-mash true
-                         :max-in-batch   0.1
-                         :potential      1.037
-                         :notes          "Imparts a corn and grain taste."}))
+  (build-adjunct :grits
+                 {:name           "Grits"
+                  :yield          0.8
+                  :color          1
+                  :recommend-mash true
+                  :max-in-batch   0.1
+                  :potential      1.037
+                  :notes          "Imparts a corn and grain taste."}))
 
 
 (def rice-hulls
   "Neutral hulls used to improve lautering."
-  (build-adjunct :rice-hulls {:name         "Rice Hulls"
-                              :yield        0.0
-                              :color        0
-                              :max-in-batch 0.05
-                              :potential    1.0
-                              :notes        "Neutral hulls used to improve lautering."}))
+  (build-adjunct :rice-hulls
+                 {:name         "Rice Hulls"
+                  :yield        0.0
+                  :color        0
+                  :max-in-batch 0.05
+                  :potential    1.0
+                  :notes        "Neutral hulls used to improve lautering."}))
 
 
 (def adjuncts

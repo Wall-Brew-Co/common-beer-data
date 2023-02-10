@@ -1,5 +1,6 @@
 (ns common-beer-data.core-test
-  (:require [com.wallbrew.spoon.spec :as spoon.spec]
+  (:require [clojure.string :as str]
+            [com.wallbrew.spoon.spec :as spoon.spec]
             [common-beer-data.core :as data]
             [common-beer-format.fermentables :as fermentables]
             [common-beer-format.hops :as hops]
@@ -9,10 +10,24 @@
             #? (:cljs [cljs.test    :refer-macros [deftest is testing]])))
 
 
+(defn note-ends-with-period?
+  "Check if the notes attribute ends with a period.
+   
+   If not, print a message and return false."
+  [data]
+  (let [notes (get data :notes)
+        ends-with-period? (str/ends-with? notes ".")]
+    (if ends-with-period?
+      true
+      (do (println (str "Notes for \"" (:name data) "\" do not end with period."))
+          false))))
+
+
 (deftest fermentables-test
   (testing "Ensure all fermentables are well formed"
     (is (seq data/all-fermentables))
     (is (every? keyword? (keys data/all-fermentables)))
+    (is (every? note-ends-with-period? (vals data/all-fermentables)))
     (is (every? #(spoon.spec/test-valid? ::fermentables/fermentable %) (vals data/all-fermentables)))))
 
 
@@ -20,6 +35,7 @@
   (testing "Ensure all hops are well formed"
     (is (seq data/all-hops))
     (is (every? keyword? (keys data/all-hops)))
+    (is (every? note-ends-with-period? (vals data/all-hops)))
     (is (every? #(spoon.spec/test-valid? ::hops/hop %) (vals data/all-hops)))))
 
 
@@ -27,6 +43,7 @@
   (testing "Ensure all styles are well formed"
     (is (seq data/all-style-guides))
     (is (every? keyword? (keys data/all-style-guides)))
+    (is (every? note-ends-with-period? (vals data/all-style-guides)))
     (is (every? #(spoon.spec/test-valid? ::styles/style %) (vals data/all-style-guides)))))
 
 
@@ -34,6 +51,7 @@
   (testing "Ensure all yeasts are well formed"
     (is (seq data/all-yeasts))
     (is (every? keyword? (keys data/all-yeasts)))
+    (is (every? note-ends-with-period? (vals data/all-yeasts)))
     (is (every? #(spoon.spec/test-valid? ::yeasts/yeast %) (vals data/all-yeasts)))))
 
 
