@@ -16,7 +16,7 @@
             [mvxcvi/cljstyle "0.15.0"]]
   :profiles {:uberjar {:aot :all}
              :dev     {:dependencies [[com.wallbrew/common-beer-format "2.2.1"]
-                                      [com.wallbrew/spoon "1.1.0"]
+                                      [com.wallbrew/spoon "1.2.1"]
                                       [doo "0.1.11"]
                                       [org.clojure/spec.alpha "0.3.218"]]
                        :plugins      [[lein-doo "0.1.11"]]}}
