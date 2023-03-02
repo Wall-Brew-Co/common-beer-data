@@ -15,7 +15,7 @@
   (let [display-min-temp (str (:min-temperature yeast-data) "C")
         display-max-temp (str (:max-temperature yeast-data) "C")
         yeast-definition (merge yeast-defaults yeast-data)
-        yeast            (assoc yeast-definition :display-min-temp display-min-temp :display-max-temp display-max-temp)
+        yeast            (assoc yeast-definition :disp-min-temp display-min-temp :disp-max-temp display-max-temp)
         cleaned-yeast    (-> yeast
                              (update :flocculation str/capitalize)
                              (update :form str/capitalize)
