@@ -6,9 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## Table of Contents
 
+* [1.3.0 - 2023-03-09](#130---2023-03-09)
 * [1.2.0 - 2023-02-10](#120---2023-02-10)
 * [1.1.0 - 2023-02-09](#110---2023-02-09)
 * [1.0.0 - 2022-07-09](#100---2022-07-09)
+
+## 1.3.0 - 2023-03-09
+
+* Added
+  * Use [common-beer-format](https://github.com/Wall-Brew-Co/common-beer-format) to define keys in data maps.
+* Fixed
+  * Fix typo in yeast data helper.
 
 ## 1.2.0 - 2023-02-10
 

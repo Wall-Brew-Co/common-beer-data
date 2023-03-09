@@ -1,5 +1,5 @@
-(defproject com.wallbrew/common-beer-data "1.2.0"
-  :description "A repository of common-beer-format data"
+(defproject com.wallbrew/common-beer-data "1.3.0"
+  :description "A repository of common-beer-format data."
   :url "https://github.com/Wall-Brew-Co/common-beer-data"
   :license {:name         "MIT"
             :url          "https://opensource.org/licenses/MIT"
