@@ -1,5 +1,6 @@
 (ns common-beer-data.core
   "Quick functions and references to ingredient data."
+  {:added "1.0"}
   (:require [common-beer-data.fermentables.adjuncts :as adjuncts]
             [common-beer-data.fermentables.dry-extracts :as dry-extracts]
             [common-beer-data.fermentables.extracts :as extracts]

@@ -1,17 +1,19 @@
 (ns ^:no-doc common-beer-data.hops.hops
-  "Function to help minimize repeated data in hop entry.")
+  "Function to help minimize repeated data in hop entry."
+  {:added "1.0"}
+  (:require [common-beer-format.hops :as cbf]))
 
 
 (def ^:private hop-defaults
   "To generate complete records that match the ::hop spec, we have defaulted the following:
    :use  - 'boil'
-   :form - 'pellet'
+   cbf/form - 'pellet'
    :time - 0"
-  {:version 1
-   :amount  0.0
-   :time    0.0
-   :use     "Boil"
-   :form    "Pellet"})
+  {cbf/version 1
+   cbf/amount  0.0
+   cbf/time    0.0
+   cbf/use     "Boil"
+   cbf/form    "Pellet"})
 
 
 (defn build-hop

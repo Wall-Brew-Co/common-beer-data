@@ -1,13 +1,15 @@
 (ns common-beer-data.fermentables.adjuncts
-  "Data for common adjunctive fermentable ingredients")
+  "Data for common adjunctive fermentable ingredients."
+  {:added "1.0"}
+  (:require [common-beer-format.fermentables :as cbf]))
 
 
 (def ^:private adjunct-defaults
-  {:version        1
-   :amount         0.0
-   :recommend-mash false
-   :add-after-boil false
-   :type           "Adjunct"})
+  {cbf/version        1
+   cbf/amount         0.0
+   cbf/recommend-mash false
+   cbf/add-after-boil false
+   cbf/type           "Adjunct"})
 
 
 (defn ^:private build-adjunct
@@ -18,35 +20,35 @@
 (def barley-hulls
   "Neutral hulls used to improve lautering."
   (build-adjunct :barley-hulls
-                 {:name         "Barley Hulls"
-                  :yield        0.0
-                  :color        0
-                  :max-in-batch 0.05
-                  :potential    1.0
-                  :notes        "Neutral hulls used to improve lautering."}))
+                 {cbf/name         "Barley Hulls"
+                  cbf/yield        0.0
+                  cbf/color        0
+                  cbf/max-in-batch 0.05
+                  cbf/potential    1.0
+                  cbf/notes        "Neutral hulls used to improve lautering."}))
 
 
 (def grits
   "Imparts a corn and grain taste."
   (build-adjunct :grits
-                 {:name           "Grits"
-                  :yield          0.8
-                  :color          1
-                  :recommend-mash true
-                  :max-in-batch   0.1
-                  :potential      1.037
-                  :notes          "Imparts a corn and grain taste."}))
+                 {cbf/name           "Grits"
+                  cbf/yield          0.8
+                  cbf/color          1
+                  cbf/recommend-mash true
+                  cbf/max-in-batch   0.1
+                  cbf/potential      1.037
+                  cbf/notes          "Imparts a corn and grain taste."}))
 
 
 (def rice-hulls
   "Neutral hulls used to improve lautering."
   (build-adjunct :rice-hulls
-                 {:name         "Rice Hulls"
-                  :yield        0.0
-                  :color        0
-                  :max-in-batch 0.05
-                  :potential    1.0
-                  :notes        "Neutral hulls used to improve lautering."}))
+                 {cbf/name         "Rice Hulls"
+                  cbf/yield        0.0
+                  cbf/color        0
+                  cbf/max-in-batch 0.05
+                  cbf/potential    1.0
+                  cbf/notes        "Neutral hulls used to improve lautering."}))
 
 
 (def adjuncts
