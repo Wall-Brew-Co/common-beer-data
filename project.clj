@@ -14,7 +14,7 @@
             [com.wallbrew/lein-sealog "1.0.2"]
             [lein-cljsbuild "1.1.8"]
             [lein-project-version "0.1.0"]
-            [mvxcvi/cljstyle "0.15.0"]]
+            [mvxcvi/cljstyle "0.16.630"]]
   :profiles {:uberjar {:aot :all}
              :dev     {:dependencies [[com.wallbrew/spoon "1.2.1"]
                                       [doo "0.1.11"]
