@@ -18,7 +18,7 @@
   :profiles {:uberjar {:aot :all}
              :dev     {:dependencies [[com.wallbrew/spoon "1.2.1"]
                                       [doo "0.1.11"]
-                                      [org.clojure/spec.alpha "0.3.218"]]
+                                      [org.clojure/spec.alpha "0.4.233"]]
                        :plugins      [[lein-doo "0.1.11"]]}}
 
   :min-lein-version "2.5.3"
