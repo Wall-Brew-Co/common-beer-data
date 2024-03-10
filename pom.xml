@@ -4,7 +4,7 @@
   <groupId>com.wallbrew</groupId>
   <artifactId>common-beer-data</artifactId>
   <packaging>jar</packaging>
-  <version>1.3.0</version>
+  <version>1.3.1</version>
   <name>common-beer-data</name>
   <description>A repository of common-beer-format data.</description>
   <url>https://github.com/Wall-Brew-Co/common-beer-data</url>
@@ -20,7 +20,7 @@
     <url>https://github.com/Wall-Brew-Co/common-beer-data</url>
     <connection>scm:git:git://github.com/Wall-Brew-Co/common-beer-data.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/Wall-Brew-Co/common-beer-data.git</developerConnection>
-    <tag>9a7ae19e321aacd5563635b62414f0bae9414a24</tag>
+    <tag>96d89bcc37e767852fcbc96efe5563933ad8dd9f</tag>
   </scm>
   <build>
     <sourceDirectory>src</sourceDirectory>
