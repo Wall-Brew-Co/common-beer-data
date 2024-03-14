@@ -19,7 +19,10 @@
              :dev     {:dependencies [[com.wallbrew/spoon "1.2.2"]
                                       [doo "0.1.11"]
                                       [org.clojure/spec.alpha "0.4.233"]]
-                       :plugins      [[lein-doo "0.1.11"]]}}
+                       :plugins      [[lein-doo "0.1.11"]]}
+             :export  {:source-paths ["src" "dev"]
+                       :dependencies [[cheshire "5.12.0"]
+                                      [com.wallbrew/clj-xml "1.9.0"]]}}
 
   :min-lein-version "2.5.3"
   :deploy-branches ["master"]
@@ -27,7 +30,9 @@
                                     :username      :env/clojars_user
                                     :password      :env/clojars_pass
                                     :sign-releases false}]]
-  :aliases {"test-build" ["do" "clean" ["cljsbuild" "once" "test"] ["doo" "once"] ["test"]]}
+  :aliases {"test-build" ["do" "clean" ["cljsbuild" "once" "test"] ["doo" "once"] ["test"]]
+            "build-json" ["with-profile" "export" "run" "-m" "common-beer-data.export/->json"]
+            "build-xml"  ["with-profile" "export" "run" "-m" "common-beer-data.export/->xml"]}
 
   :cljsbuild {:builds [{:id           "test"
                         :source-paths ["src" "test"]

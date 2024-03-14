@@ -1,0 +1,1029 @@
+{
+  "hops" : [ {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.06,
+      "use" : "Boil",
+      "name" : "Summit",
+      "cohumulone" : 0.3,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.4,
+      "humulene" : 0.2,
+      "hsi" : 0.85,
+      "notes" : "Summit boasts citric aromas of tangerine, grapefruit and orange along with an impressive alpha content giving it a wide spectrum of potential use.",
+      "caryophyllene" : 0.13,
+      "alpha" : 0.18,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Columbus, Simcoe, Apollo"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.053,
+      "use" : "Boil",
+      "name" : "Columbus",
+      "cohumulone" : 0.32,
+      "time" : 0.0,
+      "type" : "Both",
+      "myrcene" : 0.34,
+      "humulene" : 0.17,
+      "hsi" : 0.55,
+      "notes" : "It features a punchy hoppiness and deep, pensive aroma with understated citrus notes—perfect as a dual use hop.",
+      "caryophyllene" : 0.09,
+      "alpha" : 0.16,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Chinook, Northern Brewer, Nugget"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.08,
+      "use" : "Boil",
+      "name" : "El Dorado",
+      "cohumulone" : 0.3,
+      "time" : 0.0,
+      "type" : "Both",
+      "myrcene" : 0.57,
+      "humulene" : 0.1,
+      "hsi" : 0.75,
+      "notes" : "Flavors of tropical fruit, pineapple, mango. Aromas of pear, watermelon, stone fruit and candy.",
+      "caryophyllene" : 0.06,
+      "alpha" : 0.16,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Galena, Simcoe"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.035,
+      "use" : "Boil",
+      "name" : "Celeia",
+      "cohumulone" : 0.25,
+      "time" : 0.0,
+      "type" : "Both",
+      "myrcene" : 0.5,
+      "humulene" : 0.17,
+      "hsi" : 0.56,
+      "notes" : "Floral and citrus aroma.",
+      "caryophyllene" : 0.07,
+      "alpha" : 0.055,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Saaz US"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.065,
+      "use" : "Boil",
+      "name" : "Crystal",
+      "cohumulone" : 0.25,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.45,
+      "humulene" : 0.25,
+      "hsi" : 0.65,
+      "notes" : "Woody, floral, and fruity with spice notes of cinnamon, nutmeg, and black pepper.",
+      "caryophyllene" : 0.07,
+      "alpha" : 0.055,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Liberty, Mt Hood, Hallertau"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.098,
+      "use" : "Boil",
+      "name" : "Chelan",
+      "cohumulone" : 0.34,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.5,
+      "humulene" : 0.13,
+      "hsi" : 0.8,
+      "notes" : "Despite being comparable in style, Chelan enjoys higher yields and a higher alpha percentage than its parent Galena.",
+      "caryophyllene" : 0.11,
+      "alpha" : 0.15,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Galena, Nugget"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.04,
+      "use" : "Boil",
+      "name" : "Liberty",
+      "cohumulone" : 0.25,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.45,
+      "humulene" : 0.31,
+      "hsi" : 0.45,
+      "notes" : "Notes of lemon and spice.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.05,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Mt Hood, Hallertau"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.055,
+      "use" : "Boil",
+      "name" : "Cluster",
+      "cohumulone" : 0.39,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.45,
+      "humulene" : 0.17,
+      "hsi" : 0.83,
+      "notes" : "Clean, neutral, and slightly floral in taste.",
+      "caryophyllene" : 0.08,
+      "alpha" : 0.085,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Galena, Eroica"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.05,
+      "use" : "Boil",
+      "name" : "Perle US",
+      "cohumulone" : 0.28,
+      "time" : 0.0,
+      "type" : "Both",
+      "myrcene" : 0.45,
+      "humulene" : 0.3,
+      "hsi" : 0.7,
+      "notes" : "Faint spicy aroma.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.095,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Northern Brewer"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.11,
+      "use" : "Boil",
+      "name" : "Tillicum",
+      "cohumulone" : 0.34,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.39,
+      "humulene" : 0.15,
+      "hsi" : 0.8,
+      "notes" : "Elements of citrus and peach.",
+      "caryophyllene" : 0.07,
+      "alpha" : 0.15,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Galena, Chelan"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.082,
+      "use" : "Boil",
+      "name" : "Glacier",
+      "cohumulone" : 0.13,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.45,
+      "humulene" : 0.3,
+      "hsi" : 0.7,
+      "notes" : "Herby, woody, and citrusy notes.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.055,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Willamette"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.08,
+      "use" : "Boil",
+      "name" : "Mt. Hood",
+      "cohumulone" : 0.22,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.35,
+      "humulene" : 0.2,
+      "hsi" : 0.55,
+      "notes" : "Hallertau derivant. Mild spicy flavor.",
+      "caryophyllene" : 0.11,
+      "alpha" : 0.07,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Crystal"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.05,
+      "use" : "Boil",
+      "name" : "Simcoe",
+      "cohumulone" : 0.17,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.65,
+      "humulene" : 0.15,
+      "hsi" : 0.75,
+      "notes" : "Bright citrus flavors with earthy undertones. Aromas of grapefruit, pine, and herbs.",
+      "caryophyllene" : 0.07,
+      "alpha" : 0.14,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Summit"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.07,
+      "use" : "Boil",
+      "name" : "Cascade",
+      "cohumulone" : 0.35,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.5,
+      "humulene" : 0.12,
+      "hsi" : 0.5,
+      "notes" : "Floral, with elements of citrus.",
+      "caryophyllene" : 0.05,
+      "alpha" : 0.07,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Centennial, Amarillo, Columbus"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.045,
+      "use" : "Boil",
+      "name" : "Willamette",
+      "cohumulone" : 0.3,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.45,
+      "humulene" : 0.25,
+      "hsi" : 0.6,
+      "notes" : "Herbal spiciness with floral notes.",
+      "caryophyllene" : 0.07,
+      "alpha" : 0.06,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Fuggle, Glacier"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.04,
+      "use" : "Boil",
+      "name" : "Spalt",
+      "cohumulone" : 0.25,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.3,
+      "humulene" : 0.025,
+      "hsi" : 0.55,
+      "notes" : "Earthen and spice notes.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.041,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Saaz, Hallertau, Sterling"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.06,
+      "use" : "Boil",
+      "name" : "Sterling",
+      "cohumulone" : 0.25,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.45,
+      "humulene" : 0.2,
+      "hsi" : 0.65,
+      "notes" : "Derivant of Saaz. Similar earthen and spice notes.",
+      "caryophyllene" : 0.06,
+      "alpha" : 0.05,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Saaz"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.045,
+      "use" : "Boil",
+      "name" : "Eroica",
+      "cohumulone" : 0.4,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.6,
+      "humulene" : 0.005,
+      "hsi" : 0.8,
+      "notes" : "Possesses a sharp fruity essence.",
+      "caryophyllene" : 0.09,
+      "alpha" : 0.12,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Galena, Cluster, Brewer's Gold"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.048,
+      "use" : "Boil",
+      "name" : "Northdown",
+      "cohumulone" : 0.3,
+      "time" : 0.0,
+      "type" : "Both",
+      "myrcene" : 0.25,
+      "humulene" : 0.4,
+      "hsi" : 0.65,
+      "notes" : "Fresh, flowery, piney, berry and spice.",
+      "caryophyllene" : 0.15,
+      "alpha" : 0.085,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Challenger"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.045,
+      "use" : "Boil",
+      "name" : "Strisselspalt",
+      "cohumulone" : 0.25,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.42,
+      "humulene" : 0.22,
+      "hsi" : 0.65,
+      "notes" : "Pleasant mixture of herbal, floral, and citrus notes.",
+      "caryophyllene" : 0.09,
+      "alpha" : 0.045,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Hallertau, Mt Hood"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.045,
+      "use" : "Boil",
+      "name" : "Brewer's Gold US",
+      "cohumulone" : 0.4,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.4,
+      "humulene" : 0.35,
+      "hsi" : 0.1,
+      "notes" : "An incredibly sharp bittering flavor.",
+      "caryophyllene" : 0.35,
+      "alpha" : 0.1,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Cascade, Galena"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.06,
+      "use" : "Boil",
+      "name" : "Nugget",
+      "cohumulone" : 0.26,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.54,
+      "humulene" : 0.17,
+      "hsi" : 0.75,
+      "notes" : "Solid bittering, light flavor, herbal aroma.",
+      "caryophyllene" : 0.08,
+      "alpha" : 0.14,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Galena"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.05,
+      "use" : "Boil",
+      "name" : "Horizon",
+      "cohumulone" : 0.2,
+      "time" : 0.0,
+      "type" : "Both",
+      "myrcene" : 0.65,
+      "humulene" : 0.12,
+      "hsi" : 0.85,
+      "notes" : "Floral, citrusy flavors and aromas.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.1,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Magnum"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.045,
+      "use" : "Boil",
+      "name" : "Ultra",
+      "cohumulone" : 0.3,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.3,
+      "humulene" : 0.35,
+      "hsi" : 0.65,
+      "notes" : "Mild spice aroma and flavor.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.035,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Hallertau, Saaz"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.05,
+      "use" : "Boil",
+      "name" : "Ahtanum",
+      "cohumulone" : 0.3,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.5,
+      "humulene" : 0.18,
+      "hsi" : 0.5,
+      "notes" : "Distinct grapefruit scent and flavor.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.057,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Willamette, Centennial, Cascade"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.04,
+      "use" : "Boil",
+      "name" : "Mosaic",
+      "cohumulone" : 0.22,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.5,
+      "humulene" : 0.1,
+      "hsi" : 0.75,
+      "notes" : "Complex flavor reminiscent of stone fruit.",
+      "caryophyllene" : 0.05,
+      "alpha" : 0.135,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Citra"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.05,
+      "use" : "Boil",
+      "name" : "Bravo",
+      "cohumulone" : 0.32,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.38,
+      "humulene" : 0.2,
+      "hsi" : 0.7,
+      "notes" : "Spicy, earthy, and lightly floral aroma.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.18,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Columbus, CTZ, Nugget"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.037,
+      "use" : "Boil",
+      "name" : "Challenger",
+      "cohumulone" : 0.2,
+      "time" : 0.0,
+      "type" : "aroma",
+      "myrcene" : 0.36,
+      "humulene" : 0.3,
+      "hsi" : 0.8,
+      "notes" : "Challenger features decent bitterness and a floral aroma.",
+      "caryophyllene" : 0.09,
+      "alpha" : 0.021,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Admiral, Perle"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.03,
+      "use" : "Boil",
+      "name" : "Golding US",
+      "cohumulone" : 0.2,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.3,
+      "humulene" : 0.4,
+      "hsi" : 0.65,
+      "notes" : "Direct descendants of East Kent Golding. Delicate fruit and herbal aromas.",
+      "caryophyllene" : 0.15,
+      "alpha" : 0.06,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Fuggle, East Kent Golding"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.06,
+      "use" : "Boil",
+      "name" : "Magnum US",
+      "cohumulone" : 0.25,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.3,
+      "humulene" : 0.35,
+      "hsi" : 0.85,
+      "notes" : "Excellent bittering profile and a nice, hoppy, floral aroma and subtle characters of citrus. Genetically indistinguishable from the German variety.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.14,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Hallertau, Columbus, Nugget"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.055,
+      "use" : "Boil",
+      "name" : "Galaxy",
+      "cohumulone" : 0.36,
+      "time" : 0.0,
+      "type" : "aroma",
+      "myrcene" : 0.5,
+      "humulene" : 0.01,
+      "hsi" : 0.55,
+      "notes" : "Stone fruit aroma with citrus notes.",
+      "caryophyllene" : 0.06,
+      "alpha" : 0.13,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Topaz, Citra, Cascade"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.08,
+      "use" : "Boil",
+      "name" : "Apollo",
+      "cohumulone" : 0.25,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.4,
+      "humulene" : 0.3,
+      "hsi" : 0.85,
+      "notes" : "Sharp, clean bittering with grapefruit notes.",
+      "caryophyllene" : 0.18,
+      "alpha" : 0.2,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Nugget, Columbus, CTZ"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.05,
+      "use" : "Boil",
+      "name" : "CTZ",
+      "cohumulone" : 0.35,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.5,
+      "humulene" : 0.12,
+      "hsi" : 0.8,
+      "notes" : "Also known as Zeus. Sweet citrus notes with an herbal aroma.",
+      "caryophyllene" : 0.07,
+      "alpha" : 0.17,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Columbus, Apollo"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.02,
+      "use" : "Boil",
+      "name" : "Fuggle US",
+      "cohumulone" : 0.27,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.4,
+      "humulene" : 0.25,
+      "hsi" : 0.5,
+      "notes" : "A slight, fruity flavor.",
+      "caryophyllene" : 0.09,
+      "alpha" : 0.055,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Willamette, Newport"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.08,
+      "use" : "Boil",
+      "name" : "Santiam",
+      "cohumulone" : 0.2,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.3,
+      "humulene" : 0.25,
+      "hsi" : 0.45,
+      "notes" : "Soft, herbal, floral, fruity aromas with hints of pepper and spice.",
+      "caryophyllene" : 0.055,
+      "alpha" : 0.07,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Spalt, Hallertau, Liberty"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.07,
+      "use" : "Boil",
+      "name" : "Delta",
+      "cohumulone" : 0.23,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.35,
+      "humulene" : 0.3,
+      "hsi" : 0.85,
+      "notes" : "Spicy citrus and summer melon notes.",
+      "caryophyllene" : 0.12,
+      "alpha" : 0.07,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Fuggle, Willamette"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.1,
+      "use" : "Boil",
+      "name" : "Super Galena",
+      "cohumulone" : 0.4,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.5,
+      "humulene" : 0.35,
+      "hsi" : 0.7,
+      "notes" : "A far more potent variety of Galena with great bittering potential and citrus notes.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.16,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Galena, Columbus, CTZ, Eroica"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.06,
+      "use" : "Boil",
+      "name" : "Bullion",
+      "cohumulone" : 0.4,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.5,
+      "humulene" : 0.25,
+      "hsi" : 0.45,
+      "notes" : "Scents of dark fruit and spice.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.08,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Columbus, Chinook, Galena"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.04,
+      "use" : "Boil",
+      "name" : "Tettnanger",
+      "cohumulone" : 0.2,
+      "time" : 0.0,
+      "type" : "aroma",
+      "myrcene" : 0.24,
+      "humulene" : 0.2,
+      "hsi" : 0.55,
+      "notes" : "Floral and herbal notes with a mild spiciness.",
+      "caryophyllene" : 0.06,
+      "alpha" : 0.05,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Spalt, Saaz"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.045,
+      "use" : "Boil",
+      "name" : "Citra",
+      "cohumulone" : 0.3,
+      "time" : 0.0,
+      "type" : "aroma",
+      "myrcene" : 0.65,
+      "humulene" : 0.1,
+      "hsi" : 0.75,
+      "notes" : "HBC# 394cv. Strong notes of tropical fruits with a harsh bitterness.",
+      "caryophyllene" : 0.05,
+      "alpha" : 0.13,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Cascade, Simcoe"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.045,
+      "use" : "Boil",
+      "name" : "Saaz US",
+      "cohumulone" : 0.25,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.3,
+      "humulene" : 0.2,
+      "hsi" : 0.5,
+      "notes" : "Also called Saazer. Strong herbal character.",
+      "caryophyllene" : 0.06,
+      "alpha" : 0.045,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Centennial, Amarillo"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.03,
+      "use" : "Boil",
+      "name" : "East Kent Golding",
+      "cohumulone" : 0.3,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.3,
+      "humulene" : 0.3,
+      "hsi" : 0.75,
+      "notes" : "Delicate fruit and herbal aromas.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.06,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Fuggle, Golding"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.055,
+      "use" : "Boil",
+      "name" : "Warrior",
+      "cohumulone" : 0.26,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.45,
+      "humulene" : 0.17,
+      "hsi" : 0.76,
+      "notes" : "Strong aroma of spice and citrus.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.18,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Nugget, Columbus"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.053,
+      "use" : "Boil",
+      "name" : "Millennium",
+      "cohumulone" : 0.3,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.35,
+      "humulene" : 0.25,
+      "hsi" : 0.75,
+      "notes" : "Mild herbal notes with elements of resin.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.165,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "CTZ, Nugget"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.04,
+      "use" : "Boil",
+      "name" : "Chinook",
+      "cohumulone" : 0.3,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.35,
+      "humulene" : 0.2,
+      "hsi" : 0.7,
+      "notes" : "Powerful notes of pine and spice.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.14,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Galena, Eroica, Nugget"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.09,
+      "use" : "Boil",
+      "name" : "Newport",
+      "cohumulone" : 0.37,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.5,
+      "humulene" : 0.09,
+      "hsi" : 0.6,
+      "notes" : "Derived from the Magnum genus. Provides clean bitterness.",
+      "caryophyllene" : 0.5,
+      "alpha" : 0.17,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Galena, Nugget"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.08,
+      "use" : "Boil",
+      "name" : "Palisade",
+      "cohumulone" : 0.25,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.09,
+      "humulene" : 0.2,
+      "hsi" : 0.65,
+      "notes" : "Flavors of nectar fruits and citrus. Aromas that are floral, herbaceous, and grassy.",
+      "caryophyllene" : 0.17,
+      "alpha" : 0.095,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Golding, Chinook"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.045,
+      "use" : "Boil",
+      "name" : "Centennial",
+      "cohumulone" : 0.3,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.5,
+      "humulene" : 0.14,
+      "hsi" : 0.6,
+      "notes" : "Also sold as Super Cascade. Earthy and floral flavor with faint citrues notes.",
+      "caryophyllene" : 0.05,
+      "alpha" : 0.115,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Chinook, Galena, CTZ"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.055,
+      "use" : "Boil",
+      "name" : "Hallertau US",
+      "cohumulone" : 0.23,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.4,
+      "humulene" : 0.45,
+      "hsi" : 0.55,
+      "notes" : "Sometimes sold as Mittelfrüher. Light aroma of spice and floral notes.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.055,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Liberty"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.04,
+      "use" : "Boil",
+      "name" : "Northern Brewer",
+      "cohumulone" : 0.25,
+      "time" : 0.0,
+      "type" : "Both",
+      "myrcene" : 0.55,
+      "humulene" : 0.2,
+      "hsi" : 0.75,
+      "notes" : "Minty and resinous.",
+      "caryophyllene" : 0.07,
+      "alpha" : 0.095,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Perle US, Columbus"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.07,
+      "use" : "Boil",
+      "name" : "Amarillo",
+      "cohumulone" : 0.2,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.7,
+      "humulene" : 0.1,
+      "hsi" : 0.95,
+      "notes" : "Known as VGXP01. Strong orange flavor.",
+      "caryophyllene" : 0.03,
+      "alpha" : 0.11,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Cascade, Chinook"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.07,
+      "use" : "Boil",
+      "name" : "Topaz",
+      "cohumulone" : 0.5,
+      "time" : 0.0,
+      "type" : "aroma",
+      "myrcene" : 0.4,
+      "humulene" : 0.1,
+      "hsi" : 0.55,
+      "notes" : "Stone fruit aroma with citrus notes.",
+      "caryophyllene" : 0.1,
+      "alpha" : 0.15,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Galaxy, Citra, Amarillo"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.07,
+      "use" : "Boil",
+      "name" : "Vanguard",
+      "cohumulone" : 0.15,
+      "time" : 0.0,
+      "type" : "Aroma",
+      "myrcene" : 0.25,
+      "humulene" : 0.45,
+      "hsi" : 0.75,
+      "notes" : "Floral and spice notes.",
+      "caryophyllene" : 0.13,
+      "alpha" : 0.06,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Hallertau, Saaz, Mt Hood"
+    }
+  }, {
+    "hop" : {
+      "amount" : 0.0,
+      "beta" : 0.09,
+      "use" : "Boil",
+      "name" : "Galena",
+      "cohumulone" : 0.4,
+      "time" : 0.0,
+      "type" : "Bittering",
+      "myrcene" : 0.55,
+      "humulene" : 0.12,
+      "hsi" : 0.75,
+      "notes" : "One of the most commonly used bittering hops with a pleasant fruity aroma.",
+      "caryophyllene" : 0.04,
+      "alpha" : 0.135,
+      "form" : "Pellet",
+      "version" : 1,
+      "substitutes" : "Galena, Columbus, CTZ, Eroica"
+    }
+  } ]
+}

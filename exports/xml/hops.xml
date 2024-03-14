@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HOPS>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.06</BETA>
+    <USE>Boil</USE>
+    <NAME>Summit</NAME>
+    <COHUMULONE>0.3</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.4</MYRCENE>
+    <HUMULENE>0.2</HUMULENE>
+    <HSI>0.85</HSI>
+    <NOTES>Summit boasts citric aromas of tangerine, grapefruit and orange along with an impressive alpha content giving it a wide spectrum of potential use.</NOTES>
+    <CARYOPHYLLENE>0.13</CARYOPHYLLENE>
+    <ALPHA>0.18</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Columbus, Simcoe, Apollo</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.053</BETA>
+    <USE>Boil</USE>
+    <NAME>Columbus</NAME>
+    <COHUMULONE>0.32</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Both</TYPE>
+    <MYRCENE>0.34</MYRCENE>
+    <HUMULENE>0.17</HUMULENE>
+    <HSI>0.55</HSI>
+    <NOTES>It features a punchy hoppiness and deep, pensive aroma with understated citrus notes—perfect as a dual use hop.</NOTES>
+    <CARYOPHYLLENE>0.09</CARYOPHYLLENE>
+    <ALPHA>0.16</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Chinook, Northern Brewer, Nugget</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.08</BETA>
+    <USE>Boil</USE>
+    <NAME>El Dorado</NAME>
+    <COHUMULONE>0.3</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Both</TYPE>
+    <MYRCENE>0.57</MYRCENE>
+    <HUMULENE>0.1</HUMULENE>
+    <HSI>0.75</HSI>
+    <NOTES>Flavors of tropical fruit, pineapple, mango. Aromas of pear, watermelon, stone fruit and candy.</NOTES>
+    <CARYOPHYLLENE>0.06</CARYOPHYLLENE>
+    <ALPHA>0.16</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Galena, Simcoe</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.035</BETA>
+    <USE>Boil</USE>
+    <NAME>Celeia</NAME>
+    <COHUMULONE>0.25</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Both</TYPE>
+    <MYRCENE>0.5</MYRCENE>
+    <HUMULENE>0.17</HUMULENE>
+    <HSI>0.56</HSI>
+    <NOTES>Floral and citrus aroma.</NOTES>
+    <CARYOPHYLLENE>0.07</CARYOPHYLLENE>
+    <ALPHA>0.055</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Saaz US</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.065</BETA>
+    <USE>Boil</USE>
+    <NAME>Crystal</NAME>
+    <COHUMULONE>0.25</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.45</MYRCENE>
+    <HUMULENE>0.25</HUMULENE>
+    <HSI>0.65</HSI>
+    <NOTES>Woody, floral, and fruity with spice notes of cinnamon, nutmeg, and black pepper.</NOTES>
+    <CARYOPHYLLENE>0.07</CARYOPHYLLENE>
+    <ALPHA>0.055</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Liberty, Mt Hood, Hallertau</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.098</BETA>
+    <USE>Boil</USE>
+    <NAME>Chelan</NAME>
+    <COHUMULONE>0.34</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.5</MYRCENE>
+    <HUMULENE>0.13</HUMULENE>
+    <HSI>0.8</HSI>
+    <NOTES>Despite being comparable in style, Chelan enjoys higher yields and a higher alpha percentage than its parent Galena.</NOTES>
+    <CARYOPHYLLENE>0.11</CARYOPHYLLENE>
+    <ALPHA>0.15</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Galena, Nugget</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.04</BETA>
+    <USE>Boil</USE>
+    <NAME>Liberty</NAME>
+    <COHUMULONE>0.25</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.45</MYRCENE>
+    <HUMULENE>0.31</HUMULENE>
+    <HSI>0.45</HSI>
+    <NOTES>Notes of lemon and spice.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.05</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Mt Hood, Hallertau</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.055</BETA>
+    <USE>Boil</USE>
+    <NAME>Cluster</NAME>
+    <COHUMULONE>0.39</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.45</MYRCENE>
+    <HUMULENE>0.17</HUMULENE>
+    <HSI>0.83</HSI>
+    <NOTES>Clean, neutral, and slightly floral in taste.</NOTES>
+    <CARYOPHYLLENE>0.08</CARYOPHYLLENE>
+    <ALPHA>0.085</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Galena, Eroica</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.05</BETA>
+    <USE>Boil</USE>
+    <NAME>Perle US</NAME>
+    <COHUMULONE>0.28</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Both</TYPE>
+    <MYRCENE>0.45</MYRCENE>
+    <HUMULENE>0.3</HUMULENE>
+    <HSI>0.7</HSI>
+    <NOTES>Faint spicy aroma.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.095</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Northern Brewer</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.11</BETA>
+    <USE>Boil</USE>
+    <NAME>Tillicum</NAME>
+    <COHUMULONE>0.34</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.39</MYRCENE>
+    <HUMULENE>0.15</HUMULENE>
+    <HSI>0.8</HSI>
+    <NOTES>Elements of citrus and peach.</NOTES>
+    <CARYOPHYLLENE>0.07</CARYOPHYLLENE>
+    <ALPHA>0.15</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Galena, Chelan</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.082</BETA>
+    <USE>Boil</USE>
+    <NAME>Glacier</NAME>
+    <COHUMULONE>0.13</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.45</MYRCENE>
+    <HUMULENE>0.3</HUMULENE>
+    <HSI>0.7</HSI>
+    <NOTES>Herby, woody, and citrusy notes.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.055</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Willamette</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.08</BETA>
+    <USE>Boil</USE>
+    <NAME>Mt. Hood</NAME>
+    <COHUMULONE>0.22</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.35</MYRCENE>
+    <HUMULENE>0.2</HUMULENE>
+    <HSI>0.55</HSI>
+    <NOTES>Hallertau derivant. Mild spicy flavor.</NOTES>
+    <CARYOPHYLLENE>0.11</CARYOPHYLLENE>
+    <ALPHA>0.07</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Crystal</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.05</BETA>
+    <USE>Boil</USE>
+    <NAME>Simcoe</NAME>
+    <COHUMULONE>0.17</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.65</MYRCENE>
+    <HUMULENE>0.15</HUMULENE>
+    <HSI>0.75</HSI>
+    <NOTES>Bright citrus flavors with earthy undertones. Aromas of grapefruit, pine, and herbs.</NOTES>
+    <CARYOPHYLLENE>0.07</CARYOPHYLLENE>
+    <ALPHA>0.14</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Summit</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.07</BETA>
+    <USE>Boil</USE>
+    <NAME>Cascade</NAME>
+    <COHUMULONE>0.35</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.5</MYRCENE>
+    <HUMULENE>0.12</HUMULENE>
+    <HSI>0.5</HSI>
+    <NOTES>Floral, with elements of citrus.</NOTES>
+    <CARYOPHYLLENE>0.05</CARYOPHYLLENE>
+    <ALPHA>0.07</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Centennial, Amarillo, Columbus</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.045</BETA>
+    <USE>Boil</USE>
+    <NAME>Willamette</NAME>
+    <COHUMULONE>0.3</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.45</MYRCENE>
+    <HUMULENE>0.25</HUMULENE>
+    <HSI>0.6</HSI>
+    <NOTES>Herbal spiciness with floral notes.</NOTES>
+    <CARYOPHYLLENE>0.07</CARYOPHYLLENE>
+    <ALPHA>0.06</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Fuggle, Glacier</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.04</BETA>
+    <USE>Boil</USE>
+    <NAME>Spalt</NAME>
+    <COHUMULONE>0.25</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.3</MYRCENE>
+    <HUMULENE>0.025</HUMULENE>
+    <HSI>0.55</HSI>
+    <NOTES>Earthen and spice notes.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.041</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Saaz, Hallertau, Sterling</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.06</BETA>
+    <USE>Boil</USE>
+    <NAME>Sterling</NAME>
+    <COHUMULONE>0.25</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.45</MYRCENE>
+    <HUMULENE>0.2</HUMULENE>
+    <HSI>0.65</HSI>
+    <NOTES>Derivant of Saaz. Similar earthen and spice notes.</NOTES>
+    <CARYOPHYLLENE>0.06</CARYOPHYLLENE>
+    <ALPHA>0.05</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Saaz</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.045</BETA>
+    <USE>Boil</USE>
+    <NAME>Eroica</NAME>
+    <COHUMULONE>0.4</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.6</MYRCENE>
+    <HUMULENE>0.005</HUMULENE>
+    <HSI>0.8</HSI>
+    <NOTES>Possesses a sharp fruity essence.</NOTES>
+    <CARYOPHYLLENE>0.09</CARYOPHYLLENE>
+    <ALPHA>0.12</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Galena, Cluster, Brewer's Gold</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.048</BETA>
+    <USE>Boil</USE>
+    <NAME>Northdown</NAME>
+    <COHUMULONE>0.3</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Both</TYPE>
+    <MYRCENE>0.25</MYRCENE>
+    <HUMULENE>0.4</HUMULENE>
+    <HSI>0.65</HSI>
+    <NOTES>Fresh, flowery, piney, berry and spice.</NOTES>
+    <CARYOPHYLLENE>0.15</CARYOPHYLLENE>
+    <ALPHA>0.085</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Challenger</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.045</BETA>
+    <USE>Boil</USE>
+    <NAME>Strisselspalt</NAME>
+    <COHUMULONE>0.25</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.42</MYRCENE>
+    <HUMULENE>0.22</HUMULENE>
+    <HSI>0.65</HSI>
+    <NOTES>Pleasant mixture of herbal, floral, and citrus notes.</NOTES>
+    <CARYOPHYLLENE>0.09</CARYOPHYLLENE>
+    <ALPHA>0.045</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Hallertau, Mt Hood</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.045</BETA>
+    <USE>Boil</USE>
+    <NAME>Brewer's Gold US</NAME>
+    <COHUMULONE>0.4</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.4</MYRCENE>
+    <HUMULENE>0.35</HUMULENE>
+    <HSI>0.1</HSI>
+    <NOTES>An incredibly sharp bittering flavor.</NOTES>
+    <CARYOPHYLLENE>0.35</CARYOPHYLLENE>
+    <ALPHA>0.1</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Cascade, Galena</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.06</BETA>
+    <USE>Boil</USE>
+    <NAME>Nugget</NAME>
+    <COHUMULONE>0.26</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.54</MYRCENE>
+    <HUMULENE>0.17</HUMULENE>
+    <HSI>0.75</HSI>
+    <NOTES>Solid bittering, light flavor, herbal aroma.</NOTES>
+    <CARYOPHYLLENE>0.08</CARYOPHYLLENE>
+    <ALPHA>0.14</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Galena</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.05</BETA>
+    <USE>Boil</USE>
+    <NAME>Horizon</NAME>
+    <COHUMULONE>0.2</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Both</TYPE>
+    <MYRCENE>0.65</MYRCENE>
+    <HUMULENE>0.12</HUMULENE>
+    <HSI>0.85</HSI>
+    <NOTES>Floral, citrusy flavors and aromas.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.1</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Magnum</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.045</BETA>
+    <USE>Boil</USE>
+    <NAME>Ultra</NAME>
+    <COHUMULONE>0.3</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.3</MYRCENE>
+    <HUMULENE>0.35</HUMULENE>
+    <HSI>0.65</HSI>
+    <NOTES>Mild spice aroma and flavor.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.035</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Hallertau, Saaz</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.05</BETA>
+    <USE>Boil</USE>
+    <NAME>Ahtanum</NAME>
+    <COHUMULONE>0.3</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.5</MYRCENE>
+    <HUMULENE>0.18</HUMULENE>
+    <HSI>0.5</HSI>
+    <NOTES>Distinct grapefruit scent and flavor.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.057</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Willamette, Centennial, Cascade</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.04</BETA>
+    <USE>Boil</USE>
+    <NAME>Mosaic</NAME>
+    <COHUMULONE>0.22</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.5</MYRCENE>
+    <HUMULENE>0.1</HUMULENE>
+    <HSI>0.75</HSI>
+    <NOTES>Complex flavor reminiscent of stone fruit.</NOTES>
+    <CARYOPHYLLENE>0.05</CARYOPHYLLENE>
+    <ALPHA>0.135</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Citra</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.05</BETA>
+    <USE>Boil</USE>
+    <NAME>Bravo</NAME>
+    <COHUMULONE>0.32</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.38</MYRCENE>
+    <HUMULENE>0.2</HUMULENE>
+    <HSI>0.7</HSI>
+    <NOTES>Spicy, earthy, and lightly floral aroma.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.18</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Columbus, CTZ, Nugget</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.037</BETA>
+    <USE>Boil</USE>
+    <NAME>Challenger</NAME>
+    <COHUMULONE>0.2</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>aroma</TYPE>
+    <MYRCENE>0.36</MYRCENE>
+    <HUMULENE>0.3</HUMULENE>
+    <HSI>0.8</HSI>
+    <NOTES>Challenger features decent bitterness and a floral aroma.</NOTES>
+    <CARYOPHYLLENE>0.09</CARYOPHYLLENE>
+    <ALPHA>0.021</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Admiral, Perle</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.03</BETA>
+    <USE>Boil</USE>
+    <NAME>Golding US</NAME>
+    <COHUMULONE>0.2</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.3</MYRCENE>
+    <HUMULENE>0.4</HUMULENE>
+    <HSI>0.65</HSI>
+    <NOTES>Direct descendants of East Kent Golding. Delicate fruit and herbal aromas.</NOTES>
+    <CARYOPHYLLENE>0.15</CARYOPHYLLENE>
+    <ALPHA>0.06</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Fuggle, East Kent Golding</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.06</BETA>
+    <USE>Boil</USE>
+    <NAME>Magnum US</NAME>
+    <COHUMULONE>0.25</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.3</MYRCENE>
+    <HUMULENE>0.35</HUMULENE>
+    <HSI>0.85</HSI>
+    <NOTES>Excellent bittering profile and a nice, hoppy, floral aroma and subtle characters of citrus. Genetically indistinguishable from the German variety.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.14</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Hallertau, Columbus, Nugget</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.055</BETA>
+    <USE>Boil</USE>
+    <NAME>Galaxy</NAME>
+    <COHUMULONE>0.36</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>aroma</TYPE>
+    <MYRCENE>0.5</MYRCENE>
+    <HUMULENE>0.01</HUMULENE>
+    <HSI>0.55</HSI>
+    <NOTES>Stone fruit aroma with citrus notes.</NOTES>
+    <CARYOPHYLLENE>0.06</CARYOPHYLLENE>
+    <ALPHA>0.13</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Topaz, Citra, Cascade</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.08</BETA>
+    <USE>Boil</USE>
+    <NAME>Apollo</NAME>
+    <COHUMULONE>0.25</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.4</MYRCENE>
+    <HUMULENE>0.3</HUMULENE>
+    <HSI>0.85</HSI>
+    <NOTES>Sharp, clean bittering with grapefruit notes.</NOTES>
+    <CARYOPHYLLENE>0.18</CARYOPHYLLENE>
+    <ALPHA>0.2</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Nugget, Columbus, CTZ</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.05</BETA>
+    <USE>Boil</USE>
+    <NAME>CTZ</NAME>
+    <COHUMULONE>0.35</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.5</MYRCENE>
+    <HUMULENE>0.12</HUMULENE>
+    <HSI>0.8</HSI>
+    <NOTES>Also known as Zeus. Sweet citrus notes with an herbal aroma.</NOTES>
+    <CARYOPHYLLENE>0.07</CARYOPHYLLENE>
+    <ALPHA>0.17</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Columbus, Apollo</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.02</BETA>
+    <USE>Boil</USE>
+    <NAME>Fuggle US</NAME>
+    <COHUMULONE>0.27</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.4</MYRCENE>
+    <HUMULENE>0.25</HUMULENE>
+    <HSI>0.5</HSI>
+    <NOTES>A slight, fruity flavor.</NOTES>
+    <CARYOPHYLLENE>0.09</CARYOPHYLLENE>
+    <ALPHA>0.055</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Willamette, Newport</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.08</BETA>
+    <USE>Boil</USE>
+    <NAME>Santiam</NAME>
+    <COHUMULONE>0.2</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.3</MYRCENE>
+    <HUMULENE>0.25</HUMULENE>
+    <HSI>0.45</HSI>
+    <NOTES>Soft, herbal, floral, fruity aromas with hints of pepper and spice.</NOTES>
+    <CARYOPHYLLENE>0.055</CARYOPHYLLENE>
+    <ALPHA>0.07</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Spalt, Hallertau, Liberty</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.07</BETA>
+    <USE>Boil</USE>
+    <NAME>Delta</NAME>
+    <COHUMULONE>0.23</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.35</MYRCENE>
+    <HUMULENE>0.3</HUMULENE>
+    <HSI>0.85</HSI>
+    <NOTES>Spicy citrus and summer melon notes.</NOTES>
+    <CARYOPHYLLENE>0.12</CARYOPHYLLENE>
+    <ALPHA>0.07</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Fuggle, Willamette</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.1</BETA>
+    <USE>Boil</USE>
+    <NAME>Super Galena</NAME>
+    <COHUMULONE>0.4</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.5</MYRCENE>
+    <HUMULENE>0.35</HUMULENE>
+    <HSI>0.7</HSI>
+    <NOTES>A far more potent variety of Galena with great bittering potential and citrus notes.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.16</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Galena, Columbus, CTZ, Eroica</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.06</BETA>
+    <USE>Boil</USE>
+    <NAME>Bullion</NAME>
+    <COHUMULONE>0.4</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.5</MYRCENE>
+    <HUMULENE>0.25</HUMULENE>
+    <HSI>0.45</HSI>
+    <NOTES>Scents of dark fruit and spice.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.08</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Columbus, Chinook, Galena</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.04</BETA>
+    <USE>Boil</USE>
+    <NAME>Tettnanger</NAME>
+    <COHUMULONE>0.2</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>aroma</TYPE>
+    <MYRCENE>0.24</MYRCENE>
+    <HUMULENE>0.2</HUMULENE>
+    <HSI>0.55</HSI>
+    <NOTES>Floral and herbal notes with a mild spiciness.</NOTES>
+    <CARYOPHYLLENE>0.06</CARYOPHYLLENE>
+    <ALPHA>0.05</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Spalt, Saaz</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.045</BETA>
+    <USE>Boil</USE>
+    <NAME>Citra</NAME>
+    <COHUMULONE>0.3</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>aroma</TYPE>
+    <MYRCENE>0.65</MYRCENE>
+    <HUMULENE>0.1</HUMULENE>
+    <HSI>0.75</HSI>
+    <NOTES>HBC# 394cv. Strong notes of tropical fruits with a harsh bitterness.</NOTES>
+    <CARYOPHYLLENE>0.05</CARYOPHYLLENE>
+    <ALPHA>0.13</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Cascade, Simcoe</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.045</BETA>
+    <USE>Boil</USE>
+    <NAME>Saaz US</NAME>
+    <COHUMULONE>0.25</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.3</MYRCENE>
+    <HUMULENE>0.2</HUMULENE>
+    <HSI>0.5</HSI>
+    <NOTES>Also called Saazer. Strong herbal character.</NOTES>
+    <CARYOPHYLLENE>0.06</CARYOPHYLLENE>
+    <ALPHA>0.045</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Centennial, Amarillo</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.03</BETA>
+    <USE>Boil</USE>
+    <NAME>East Kent Golding</NAME>
+    <COHUMULONE>0.3</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.3</MYRCENE>
+    <HUMULENE>0.3</HUMULENE>
+    <HSI>0.75</HSI>
+    <NOTES>Delicate fruit and herbal aromas.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.06</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Fuggle, Golding</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.055</BETA>
+    <USE>Boil</USE>
+    <NAME>Warrior</NAME>
+    <COHUMULONE>0.26</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.45</MYRCENE>
+    <HUMULENE>0.17</HUMULENE>
+    <HSI>0.76</HSI>
+    <NOTES>Strong aroma of spice and citrus.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.18</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Nugget, Columbus</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.053</BETA>
+    <USE>Boil</USE>
+    <NAME>Millennium</NAME>
+    <COHUMULONE>0.3</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.35</MYRCENE>
+    <HUMULENE>0.25</HUMULENE>
+    <HSI>0.75</HSI>
+    <NOTES>Mild herbal notes with elements of resin.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.165</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>CTZ, Nugget</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.04</BETA>
+    <USE>Boil</USE>
+    <NAME>Chinook</NAME>
+    <COHUMULONE>0.3</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.35</MYRCENE>
+    <HUMULENE>0.2</HUMULENE>
+    <HSI>0.7</HSI>
+    <NOTES>Powerful notes of pine and spice.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.14</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Galena, Eroica, Nugget</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.09</BETA>
+    <USE>Boil</USE>
+    <NAME>Newport</NAME>
+    <COHUMULONE>0.37</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.5</MYRCENE>
+    <HUMULENE>0.09</HUMULENE>
+    <HSI>0.6</HSI>
+    <NOTES>Derived from the Magnum genus. Provides clean bitterness.</NOTES>
+    <CARYOPHYLLENE>0.5</CARYOPHYLLENE>
+    <ALPHA>0.17</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Galena, Nugget</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.08</BETA>
+    <USE>Boil</USE>
+    <NAME>Palisade</NAME>
+    <COHUMULONE>0.25</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.09</MYRCENE>
+    <HUMULENE>0.2</HUMULENE>
+    <HSI>0.65</HSI>
+    <NOTES>Flavors of nectar fruits and citrus. Aromas that are floral, herbaceous, and grassy.</NOTES>
+    <CARYOPHYLLENE>0.17</CARYOPHYLLENE>
+    <ALPHA>0.095</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Golding, Chinook</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.045</BETA>
+    <USE>Boil</USE>
+    <NAME>Centennial</NAME>
+    <COHUMULONE>0.3</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.5</MYRCENE>
+    <HUMULENE>0.14</HUMULENE>
+    <HSI>0.6</HSI>
+    <NOTES>Also sold as Super Cascade. Earthy and floral flavor with faint citrues notes.</NOTES>
+    <CARYOPHYLLENE>0.05</CARYOPHYLLENE>
+    <ALPHA>0.115</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Chinook, Galena, CTZ</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.055</BETA>
+    <USE>Boil</USE>
+    <NAME>Hallertau US</NAME>
+    <COHUMULONE>0.23</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.4</MYRCENE>
+    <HUMULENE>0.45</HUMULENE>
+    <HSI>0.55</HSI>
+    <NOTES>Sometimes sold as Mittelfrüher. Light aroma of spice and floral notes.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.055</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Liberty</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.04</BETA>
+    <USE>Boil</USE>
+    <NAME>Northern Brewer</NAME>
+    <COHUMULONE>0.25</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Both</TYPE>
+    <MYRCENE>0.55</MYRCENE>
+    <HUMULENE>0.2</HUMULENE>
+    <HSI>0.75</HSI>
+    <NOTES>Minty and resinous.</NOTES>
+    <CARYOPHYLLENE>0.07</CARYOPHYLLENE>
+    <ALPHA>0.095</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Perle US, Columbus</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.07</BETA>
+    <USE>Boil</USE>
+    <NAME>Amarillo</NAME>
+    <COHUMULONE>0.2</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.7</MYRCENE>
+    <HUMULENE>0.1</HUMULENE>
+    <HSI>0.95</HSI>
+    <NOTES>Known as VGXP01. Strong orange flavor.</NOTES>
+    <CARYOPHYLLENE>0.03</CARYOPHYLLENE>
+    <ALPHA>0.11</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Cascade, Chinook</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.07</BETA>
+    <USE>Boil</USE>
+    <NAME>Topaz</NAME>
+    <COHUMULONE>0.5</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>aroma</TYPE>
+    <MYRCENE>0.4</MYRCENE>
+    <HUMULENE>0.1</HUMULENE>
+    <HSI>0.55</HSI>
+    <NOTES>Stone fruit aroma with citrus notes.</NOTES>
+    <CARYOPHYLLENE>0.1</CARYOPHYLLENE>
+    <ALPHA>0.15</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Galaxy, Citra, Amarillo</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.07</BETA>
+    <USE>Boil</USE>
+    <NAME>Vanguard</NAME>
+    <COHUMULONE>0.15</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Aroma</TYPE>
+    <MYRCENE>0.25</MYRCENE>
+    <HUMULENE>0.45</HUMULENE>
+    <HSI>0.75</HSI>
+    <NOTES>Floral and spice notes.</NOTES>
+    <CARYOPHYLLENE>0.13</CARYOPHYLLENE>
+    <ALPHA>0.06</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Hallertau, Saaz, Mt Hood</SUBSTITUTES>
+  </HOP>
+  <HOP>
+    <AMOUNT>0.0</AMOUNT>
+    <BETA>0.09</BETA>
+    <USE>Boil</USE>
+    <NAME>Galena</NAME>
+    <COHUMULONE>0.4</COHUMULONE>
+    <TIME>0.0</TIME>
+    <TYPE>Bittering</TYPE>
+    <MYRCENE>0.55</MYRCENE>
+    <HUMULENE>0.12</HUMULENE>
+    <HSI>0.75</HSI>
+    <NOTES>One of the most commonly used bittering hops with a pleasant fruity aroma.</NOTES>
+    <CARYOPHYLLENE>0.04</CARYOPHYLLENE>
+    <ALPHA>0.135</ALPHA>
+    <FORM>Pellet</FORM>
+    <VERSION>1</VERSION>
+    <SUBSTITUTES>Galena, Columbus, CTZ, Eroica</SUBSTITUTES>
+  </HOP>
+</HOPS>

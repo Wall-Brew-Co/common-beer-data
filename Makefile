@@ -14,6 +14,8 @@ version/major:
 	@ lein change version leiningen.release/bump-version release
 	@ lein sealog bump major
 	@ lein pom
+	@ lein build-xml
+	@ lein build-json
 
 version/minor:
 	$(info Updating minor version and adding CHANGELOG entry...)
@@ -22,6 +24,8 @@ version/minor:
 	@ lein change version leiningen.release/bump-version release
 	@ lein sealog bump minor
 	@ lein pom
+	@ lein build-xml
+	@ lein build-json
 
 version/patch:
 	$(info Updating patch version and adding CHANGELOG entry...)
@@ -30,6 +34,8 @@ version/patch:
 	@ lein change version leiningen.release/bump-version release
 	@ lein sealog bump patch
 	@ lein pom
+	@ lein build-xml
+	@ lein build-json
 
 changelog/render:
 	$(info Rendering CHANGELOG...)
