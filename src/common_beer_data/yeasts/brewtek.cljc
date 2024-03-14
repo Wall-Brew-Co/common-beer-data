@@ -8,7 +8,7 @@
 
 (def cl-0010-american-microbrewery-ale-1
   "Smooth, clean, strong fermenting ale yeast that works well at cold temperature.
-   
+
    Clean malt flavor is ideal for cream ales."
   (yeasts/build-yeasts :cl-0010-american-microbrewery-ale-1
                        {cbf/min-temperature 13.33
@@ -25,9 +25,9 @@
 
 
 (def cl-0020-american-microbrewery-ale-2
-  "Accentuated, rich, creamy malt profile. 
-   
-   Generous amounts of diacytl. 
+  "Accentuated, rich, creamy malt profile.
+
+   Generous amounts of diacytl.
    Use for low gravity beers where malt character is needed or stronger beers for a robust character."
   (yeasts/build-yeasts :cl-0020-american-microbrewery-ale-2
                        {cbf/min-temperature 13.33
@@ -44,9 +44,9 @@
 
 
 (def cl-0050-california-pub-ale
-  "For that classic U.S. small brewery flavor. 
-   
-   CL-50 produces terrific American red & pale ale styles. 
+  "For that classic U.S. small brewery flavor.
+
+   CL-50 produces terrific American red & pale ale styles.
    While attenuation is normal, this yeast produces a big, soft, well rounded malt flavor that really lets caramel malt flavors shine."
   (yeasts/build-yeasts :cl-0050-california-pub-ale
                        {cbf/min-temperature 15.56
@@ -63,10 +63,10 @@
 
 
 (def cl-0060-north-eastern-micro-ale
-  "Malty, bready, yet clean malt character. 
-   
-   Leaves hops flavor and aroma intact. 
-   Versitile yeast for many American styles."
+  "Malty, bready, yet clean malt character.
+
+   Leaves hops flavor and aroma intact.
+   versatile yeast for many American styles."
   (yeasts/build-yeasts :cl-0060-north-eastern-micro-ale
                        {cbf/min-temperature 13.33
                         cbf/name            "CL-0060 North-Eastern Micro Ale"
@@ -75,16 +75,16 @@
                         cbf/best-for        "American Ales, Reds, Ambers"
                         cbf/laboratory      "Brewtek"
                         cbf/attenuation     0.765
-                        cbf/notes           "Malty, bready, yet clean malt character. Leaves hops flavor and aroma intact. Versitile yeast for many American styles."
+                        cbf/notes           "Malty, bready, yet clean malt character. Leaves hops flavor and aroma intact. versatile yeast for many American styles."
                         cbf/flocculation    "Medium"
                         cbf/form            "Liquid"
                         cbf/product-id      "CL-0060"}))
 
 
 (def cl-0110-british-microbrewery-ale
-  "Complex oakey, and fruity ester profile. 
-   
-   Slightly under-attenuated finish leaves some residual malt flavor. 
+  "Complex oakey, and fruity ester profile.
+
+   Slightly under-attenuated finish leaves some residual malt flavor.
    Suitable for low to medium gravity bitters and ales."
   (yeasts/build-yeasts :cl-0110-british-microbrewery-ale
                        {cbf/min-temperature 16.67
@@ -102,7 +102,7 @@
 
 (def cl-0120-british-pale-ale-1
   "Bold, citrusy character which accentuates mineral and hop flavors.
-   
+
    Distinct character of a classic Pale Ale."
   (yeasts/build-yeasts :cl-0120-british-pale-ale-1
                        {cbf/min-temperature 16.67
@@ -119,10 +119,10 @@
 
 
 (def cl-0130-british-pale-ale-2
-  "Smooth, full bodied, well roundd ale yeast. 
-   
-   Mild esters. 
-   Strong ferementer suitable for strong or spiced ales. 
+  "Smooth, full bodied, well roundd ale yeast.
+
+   Mild esters.
+   Strong ferementer suitable for strong or spiced ales.
    Accentuates caramel and malt flavors."
   (yeasts/build-yeasts :cl-0130-british-pale-ale-2
                        {cbf/min-temperature 16.67
@@ -139,9 +139,9 @@
 
 
 (def cl-0150-british-real-ale
-  "Great for real pub bitters. 
-   
-   Has a complex, woody flavor and musty ester profile that characterizes real ale. 
+  "Great for real pub bitters.
+
+   Has a complex, woody flavor and musty ester profile that characterizes real ale.
    Underattenuating to leave mild sweetness to the finish."
   (yeasts/build-yeasts :cl-0150-british-real-ale
                        {cbf/min-temperature 16.67
@@ -158,9 +158,9 @@
 
 
 (def cl-0160-british-draft-ale
-  "Full bodied, well rounded ale yeast with a touch of diacytl. 
-   
-   Emphasizes malt character. 
+  "Full bodied, well rounded ale yeast with a touch of diacytl.
+
+   Emphasizes malt character.
    Great for porters and bitters."
   (yeasts/build-yeasts :cl-0160-british-draft-ale
                        {cbf/min-temperature 16.67
@@ -177,8 +177,8 @@
 
 
 (def cl-0170-classic-british-ale
-  "Complex ale with British tones and fruit like esters. 
-   
+  "Complex ale with British tones and fruit like esters.
+
    Works well in high gravity ales such as scottish heavy as well."
   (yeasts/build-yeasts :cl-0170-classic-british-ale
                        {cbf/min-temperature 16.67
@@ -195,9 +195,9 @@
 
 
 (def cl-0200-scottish-ale
-  "Use for classic Scottish heavys, 90's- or strong ales. 
-   
-   This yeast produces a soft, fruity malt profile with a subtle woody, oakey ester profile. 
+  "Use for classic Scottish heavys, 90's- or strong ales.
+
+   This yeast produces a soft, fruity malt profile with a subtle woody, oakey ester profile.
    A mild, mineral like dryness in the finish makes this a very complex strain."
   (yeasts/build-yeasts :cl-0200-scottish-ale
                        {cbf/min-temperature 15.56
@@ -214,9 +214,9 @@
 
 
 (def cl-0240-irish-dry-stout
-  "Top fermenting yeast which leaves a recognizable slightly woody character to Dry Stouts. 
-   
-   Vinous almost lactic character that blends well with roast malts. 
+  "Top fermenting yeast which leaves a recognizable slightly woody character to Dry Stouts.
+
+   Vinous almost lactic character that blends well with roast malts.
    High attenuation."
   (yeasts/build-yeasts :cl-0240-irish-dry-stout
                        {cbf/min-temperature 16.67
@@ -249,8 +249,8 @@
 
 
 (def cl-0270-australian-ale
-  "Produces a malty, bready, nutty character with a pleasant honey like finish. 
-   
+  "Produces a malty, bready, nutty character with a pleasant honey like finish.
+
    This yeast emphasizes malt nuances and is very forgiving in warmer fermentations for those who cannot ferment under controlled conditions."
   (yeasts/build-yeasts :cl-0270-australian-ale
                        {cbf/min-temperature 18.89
@@ -267,9 +267,9 @@
 
 
 (def cl-0300-belgian-ale-1
-  "Produces classic Belgian ale flavor. 
-   
-   Robust, estery with notes of clove and fruit. 
+  "Produces classic Belgian ale flavor.
+
+   Robust, estery with notes of clove and fruit.
    Ferments well in high gravity worts."
   (yeasts/build-yeasts :cl-0300-belgian-ale-1
                        {cbf/min-temperature 16.67
@@ -286,9 +286,9 @@
 
 
 (def cl-0320-belgian-ale-2
-  "Flanders style yeast. 
-   
-   Strong fermenting yeast attenuates well and produces fruity, malty, estery malt profile. 
+  "Flanders style yeast.
+
+   Strong fermenting yeast attenuates well and produces fruity, malty, estery malt profile.
    Slow to flocculate."
   (yeasts/build-yeasts :cl-0320-belgian-ale-2
                        {cbf/min-temperature 16.67
@@ -305,10 +305,10 @@
 
 
 (def cl-0340-belgian-ale-3
-  "Slightly more refined than CL-300. 
-   
-   Produces the classic Trappist ale character with esters of spice and fruit. 
-   Mildly phenolic. 
+  "Slightly more refined than CL-300.
+
+   Produces the classic Trappist ale character with esters of spice and fruit.
+   Mildly phenolic.
    Strong fermenting yeast."
   (yeasts/build-yeasts :cl-0340-belgian-ale-3
                        {cbf/min-temperature 16.67
@@ -325,8 +325,8 @@
 
 
 (def cl-0380-saison
-  "Pleasant yeast blend. 
-   
+  "Pleasant yeast blend.
+
    Leaves a smooth full character to the malt with mild, but pleasant esters and some apple pie spices."
   (yeasts/build-yeasts :cl-0380-saison
                        {cbf/min-temperature 16.67
@@ -343,9 +343,9 @@
 
 
 (def cl-0400-old-german-ale
-  "Traditional Alt Bier flavor. 
-   
-   Strong fermenter with a smooth, attenuated, mild flavor. 
+  "Traditional Alt Bier flavor.
+
+   Strong fermenter with a smooth, attenuated, mild flavor.
    Slightly dry, clean, quenching finish."
   (yeasts/build-yeasts :cl-0400-old-german-ale
                        {cbf/min-temperature 16.67
@@ -362,9 +362,9 @@
 
 
 (def cl-0450-kolsch
-  "Produces mild sulfer flavor which smooths with time to a clean attenuated flavor. 
-   
-   Mineral and malt characters come through well. 
+  "Produces mild sulfer flavor which smooths with time to a clean attenuated flavor.
+
+   Mineral and malt characters come through well.
    Clean, lightly yeasty flavor and aroma in the finish."
   (yeasts/build-yeasts :cl-0450-kolsch
                        {cbf/min-temperature 16.67
@@ -381,10 +381,10 @@
 
 
 (def cl-0600-original-pilsner
-  "Full bodied lager yeast with sweet, underattenuated finish. 
-   
-   Subdued diacetyl character. 
-   Big malty palatte. 
+  "Full bodied lager yeast with sweet, underattenuated finish.
+
+   Subdued diacetyl character.
+   Big malty palatte.
    Classic Pilsner finish and style."
   (yeasts/build-yeasts :cl-0600-original-pilsner
                        {cbf/min-temperature 8.89
@@ -401,9 +401,9 @@
 
 
 (def cl-0620-american-megabrewery
-  "Smooth yeast with a slight fruity flavor. 
-   
-   Lagers into a smooth, clean tasting beer. 
+  "Smooth yeast with a slight fruity flavor.
+
+   Lagers into a smooth, clean tasting beer.
    Use for light, clean lager styles with unobtrusive yeast character."
   (yeasts/build-yeasts :cl-0620-american-megabrewery
                        {cbf/min-temperature 8.89
@@ -420,9 +420,9 @@
 
 
 (def cl-0630-american-microbrewery-lager
-  "Strong fermenter. 
-   
-   Leaves a clean, full flavored, malty finish. 
+  "Strong fermenter.
+
+   Leaves a clean, full flavored, malty finish.
    Slightly attenuative.
    Versatile for most lager styles with a clean full flavor."
   (yeasts/build-yeasts :cl-0630-american-microbrewery-lager
@@ -440,8 +440,8 @@
 
 
 (def cl-0650-old-bavarian-lager
-  "Well rounded, malty with a subtle ester complex and citrus flavors. 
-   
+  "Well rounded, malty with a subtle ester complex and citrus flavors.
+
    Distinct, flavorful yeast is great for Southern German lager styles."
   (yeasts/build-yeasts :cl-0650-old-bavarian-lager
                        {cbf/min-temperature 8.89
@@ -459,8 +459,8 @@
 
 (def cl-0660-northern-german-lager
   "Clean, crisp, traditional lager character.
-   
-   Strong fermenting and forgiving yeast. 
+
+   Strong fermenting and forgiving yeast.
    Excellent general purpose lager yeast."
   (yeasts/build-yeasts :cl-0660-northern-german-lager
                        {cbf/min-temperature 8.89
@@ -477,9 +477,9 @@
 
 
 (def cl-0670-swiss-lager
-  "A unique strain that has both a clean, crisp lager flavor and a soft, smooth maltiness. 
-   
-   Perfect for European Pilsners. 
+  "A unique strain that has both a clean, crisp lager flavor and a soft, smooth maltiness.
+
+   Perfect for European Pilsners.
    Like our CL-660 strain, this is an excellent all purpose Lager yeast for those wanting a fuller, rounder palate."
   (yeasts/build-yeasts :cl-0670-swiss-lager
                        {cbf/min-temperature 8.89
@@ -496,9 +496,9 @@
 
 
 (def cl-0680-east-european-lager
-  "Smooth, rich, creamy character. 
-   
-   Emphasizes big malt flavor and clean finish. 
+  "Smooth, rich, creamy character.
+
+   Emphasizes big malt flavor and clean finish.
    Full but smooth malt character."
   (yeasts/build-yeasts :cl-0680-east-european-lager
                        {cbf/min-temperature 8.89
@@ -515,10 +515,10 @@
 
 
 (def cl-0690-california-esteem-gold
-  "Use for California Common Beers (aka Steam Beer). 
-   
-   Leaves a slightly estery, well attenuated finish. 
-   Quite distinct in flavor. 
+  "Use for California Common Beers (aka Steam Beer).
+
+   Leaves a slightly estery, well attenuated finish.
+   Quite distinct in flavor.
    Can also be used for complex porters."
   (yeasts/build-yeasts :cl-0690-california-esteem-gold
                        {cbf/min-temperature 8.89
@@ -535,10 +535,10 @@
 
 
 (def cl-0900-belgian-wheat
-  "Top fermenting yeast with a soft bread-like character. 
-   
-   Leaves a sweet, mildly estery finish. 
-   Delicious Belgian character to any beer. 
+  "Top fermenting yeast with a soft bread-like character.
+
+   Leaves a sweet, mildly estery finish.
+   Delicious Belgian character to any beer.
    Great in Wit style with coriander and bitter orange peel."
   (yeasts/build-yeasts :cl-0900-belgian-wheat
                        {cbf/min-temperature 12.78
@@ -555,9 +555,9 @@
 
 
 (def cl-0920-german-wheat-bt
-  "Top fermenting Weizenbier yeast. 
-   
-   Intensely spicy, clovey and phenolic. 
+  "Top fermenting Weizenbier yeast.
+
+   Intensely spicy, clovey and phenolic.
    High attenuation."
   (yeasts/build-yeasts :cl-0920-german-wheat-bt
                        {cbf/min-temperature 12.78
@@ -574,8 +574,8 @@
 
 
 (def cl-0930-german-weiss
-  "Milder than German Wheat #1, this strain still produces the desired clove and phenol character, but to a lesser degree. 
-   
+  "Milder than German Wheat #1, this strain still produces the desired clove and phenol character, but to a lesser degree.
+
    Full, earthy character."
   (yeasts/build-yeasts :cl-0930-german-weiss
                        {cbf/min-temperature 12.78
@@ -592,9 +592,9 @@
 
 
 (def cl-0980-american-white-ale
-  "Smooth wheat yeast with a round, clean, malt flavor. 
-   
-   Low flocculation leaves cloudy Hefe-Weizen finish. 
+  "Smooth wheat yeast with a round, clean, malt flavor.
+
+   Low flocculation leaves cloudy Hefe-Weizen finish.
    Smooth flavor makes a great unfiltered wheat beer."
   (yeasts/build-yeasts :cl-0980-american-white-ale
                        {cbf/min-temperature 12.78
@@ -611,9 +611,9 @@
 
 
 (def cl-5200-brettanomyces-lambicus
-  "Wild yeast strain associated with Belgian breweries. 
-   
-   Contributes horsey, old leather flavor complex to Belgian lambics. 
+  "Wild yeast strain associated with Belgian breweries.
+
+   Contributes horsey, old leather flavor complex to Belgian lambics.
    Slow growing yeast that takes weeks to ferment and months to develop fully."
   (yeasts/build-yeasts :cl-5200-brettanomyces-lambicus
                        {cbf/min-temperature 8.89
@@ -630,9 +630,9 @@
 
 
 (def cl-5600-pediococcus-damnosus
-  "Slow growing bacteria used in secondary to create lactic acid flavor in Belgian lambics. 
-   
-   Produces large amounts of lactic acid and diacytl. 
+  "Slow growing bacteria used in secondary to create lactic acid flavor in Belgian lambics.
+
+   Produces large amounts of lactic acid and diacytl.
    Prefers anaerobic conditions."
   (yeasts/build-yeasts :cl-5600-pediococcus-damnosus
                        {cbf/min-temperature 8.89
