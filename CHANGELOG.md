@@ -6,15 +6,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## Table of Contents
 
+* [1.4.0 - 2024-03-14](#140---2024-03-14)
 * [1.3.1 - 2024-03-10](#131---2024-03-10)
 * [1.3.0 - 2023-03-09](#130---2023-03-09)
 * [1.2.0 - 2023-02-10](#120---2023-02-10)
 * [1.1.0 - 2023-02-09](#110---2023-02-09)
 * [1.0.0 - 2022-07-09](#100---2022-07-09)
 
+## 1.4.0 - 2024-03-14
+
+* Added
+  * Add `common-beer-data.export/->json` and `common-beer-data.export/->xml` functions to export data to JSON and XML files.
+  * Add JSON and XML representations of all data stored in clojure forms.
+
 ## 1.3.1 - 2024-03-10
 
-* Changed
+* Security
   * Bumped `org.clojure/clojure` to `1.11.2`. Note: Addressing `CVE-2024-22871` / `GHSA-vr64-r9qj-h27f` requires consumers to upgrade to this version.
 
 ## 1.3.0 - 2023-03-09

@@ -75,7 +75,7 @@
     <MAX_TEMPERATURE>22.22</MAX_TEMPERATURE>
     <TYPE>Ale</TYPE>
     <DISP_MIN_TEMP>18.33C</DISP_MIN_TEMP>
-    <BEST_FOR>Belgian sour ales and labics (in secondary)</BEST_FOR>
+    <BEST_FOR>Belgian sour ales and lambics (in secondary)</BEST_FOR>
     <LABORATORY>White Labs</LABORATORY>
     <ATTENUATION>0.765</ATTENUATION>
     <DISP_MAX_TEMP>22.22C</DISP_MAX_TEMP>
@@ -113,7 +113,7 @@
     <LABORATORY>Wyeast</LABORATORY>
     <ATTENUATION>0.765</ATTENUATION>
     <DISP_MAX_TEMP>22.22C</DISP_MAX_TEMP>
-    <NOTES>Soft, smooth, clean finish. Very well balanced. Very versitile - works well with many ale styles.</NOTES>
+    <NOTES>Soft, smooth, clean finish. Very well balanced. Very versatile - works well with many ale styles.</NOTES>
     <FLOCCULATION>Medium</FLOCCULATION>
     <FORM>Liquid</FORM>
     <VERSION>1</VERSION>
@@ -181,7 +181,7 @@
     <LABORATORY>White Labs</LABORATORY>
     <ATTENUATION>0.765</ATTENUATION>
     <DISP_MAX_TEMP>22.78C</DISP_MAX_TEMP>
-    <NOTES>Very clean flavor, balance and stability. Accentuates hop flavor Versitile - can be used to make any style ale.</NOTES>
+    <NOTES>Very clean flavor, balance and stability. Accentuates hop flavor versatile - can be used to make any style ale.</NOTES>
     <FLOCCULATION>High</FLOCCULATION>
     <FORM>Liquid</FORM>
     <VERSION>1</VERSION>
@@ -436,7 +436,7 @@
     <LABORATORY>White Labs</LABORATORY>
     <ATTENUATION>0.765</ATTENUATION>
     <DISP_MAX_TEMP>23.89C</DISP_MAX_TEMP>
-    <NOTES>Combination of fruitiness and phenolic characters dominate the profile. Some sulfur which will dissapate following fermentation.</NOTES>
+    <NOTES>Combination of fruitiness and phenolic characters dominate the profile. Some sulfur which will dissipate following fermentation.</NOTES>
     <FLOCCULATION>Low</FLOCCULATION>
     <FORM>Liquid</FORM>
     <VERSION>1</VERSION>
@@ -3139,7 +3139,7 @@
     <LABORATORY>Brewtek</LABORATORY>
     <ATTENUATION>0.765</ATTENUATION>
     <DISP_MAX_TEMP>22.22C</DISP_MAX_TEMP>
-    <NOTES>Malty, bready, yet clean malt character. Leaves hops flavor and aroma intact. Versitile yeast for many American styles.</NOTES>
+    <NOTES>Malty, bready, yet clean malt character. Leaves hops flavor and aroma intact. versatile yeast for many American styles.</NOTES>
     <FLOCCULATION>Medium</FLOCCULATION>
     <FORM>Liquid</FORM>
     <VERSION>1</VERSION>
