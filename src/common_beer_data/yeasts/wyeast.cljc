@@ -1,6 +1,6 @@
 (ns common-beer-data.yeasts.wyeast
   "Data for yeasts cultivated by Wyeast.
-   
+
    https://wyeastlab.com/"
   {:added "1.0"}
   (:require [common-beer-data.yeasts.yeasts :as yeasts]
@@ -24,8 +24,8 @@
 
 
 (def american-wheat-ale-1010
-  "Dry, Crisp, tart beer in the American Hefeweizen style. 
-   
+  "Dry, Crisp, tart beer in the American Hefeweizen style.
+
    Low flocculation aids in producing desired chill haze."
   (yeasts/build-yeasts :american-wheat-ale-1010
                        {cbf/min-temperature 14.44
@@ -42,9 +42,9 @@
 
 
 (def british-cask-ale-1026
-  "A great choice for any cask conditioned British Ale. 
-   
-   Produces nice malt profile with a hint of fruit. 
+  "A great choice for any cask conditioned British Ale.
+
+   Produces nice malt profile with a hint of fruit.
    Finishes dry and slightly tart."
   (yeasts/build-yeasts :british-cask-ale-1026
                        {cbf/min-temperature 17.22
@@ -77,10 +77,10 @@
 
 
 (def american-ale-1056
-  "Soft, smooth, clean finish. 
-   
-   Very well balanced. 
-   Very versitile - works well with many ale styles."
+  "Soft, smooth, clean finish.
+
+   Very well balanced.
+   Very versatile - works well with many ale styles."
   (yeasts/build-yeasts :american-ale-1056
                        {cbf/min-temperature 15.56
                         cbf/name            "1056 American Ale"
@@ -89,15 +89,15 @@
                         cbf/best-for        "American Pale Ale, Scottish Ale, Porters, Sweet Stout, Barley Wine, Alt"
                         cbf/laboratory      "Wyeast"
                         cbf/attenuation     0.765
-                        cbf/notes           "Soft, smooth, clean finish. Very well balanced. Very versitile - works well with many ale styles."
+                        cbf/notes           "Soft, smooth, clean finish. Very well balanced. Very versatile - works well with many ale styles."
                         cbf/flocculation    "Medium"
                         cbf/form            "Liquid"
                         cbf/product-id      "1056"}))
 
 
 (def irish-ale-1084
-  "Dry diacetyl, fruity flavor characteristic of stouts. 
-   
+  "Dry diacetyl, fruity flavor characteristic of stouts.
+
    Full bodied, dry, clean flavor."
   (yeasts/build-yeasts :irish-ale-1084
                        {cbf/min-temperature 16.67
@@ -114,8 +114,8 @@
 
 
 (def wyeast-ale-blend-1087
-  "Blend of ale strains designed to provide quick starts, good flavor, balance and flocculation. 
-   
+  "Blend of ale strains designed to provide quick starts, good flavor, balance and flocculation.
+
    Balanced finish suitable for most American and British ale styles."
   (yeasts/build-yeasts :wyeast-ale-blend-1087
                        {cbf/min-temperature 17.78
@@ -132,8 +132,8 @@
 
 
 (def british-ale-yeast-1098
-  "Fruity, tart, dry crisp finish. 
-   
+  "Fruity, tart, dry crisp finish.
+
    Very well balanced."
   (yeasts/build-yeasts :british-ale-yeast-1098
                        {cbf/min-temperature 17.78
@@ -150,8 +150,8 @@
 
 
 (def whitbread-ale-1099
-  "Slightly more fruity and malty than Wyeast's British Ale. 
-   
+  "Slightly more fruity and malty than Wyeast's British Ale.
+
    Clear and highly flocculant."
   (yeasts/build-yeasts :whitbread-ale-1099
                        {cbf/min-temperature 17.78
@@ -168,9 +168,9 @@
 
 
 (def ringwood-ale-1187
-  "European ale yeast. 
-   
-   Highly flocculant with complex, clear, but malty profile. 
+  "European ale yeast.
+
+   Highly flocculant with complex, clear, but malty profile.
    Slightly fruity ester."
   (yeasts/build-yeasts :ringwood-ale-1187
                        {cbf/min-temperature 17.78
@@ -187,8 +187,8 @@
 
 
 (def belgian-ale-yeast-1214
-  "Trappist style ale yeast. 
-   
+  "Trappist style ale yeast.
+
    Complex estery flavor."
   (yeasts/build-yeasts :belgian-ale-yeast-1214
                        {cbf/min-temperature 14.44
@@ -205,8 +205,8 @@
 
 
 (def american-ale-ii-1272
-  "Clean, tart, nutty flavor. 
-   
+  "Clean, tart, nutty flavor.
+
    More fruity than Wyeast American Ale yeast."
   (yeasts/build-yeasts :american-ale-ii-1272
                        {cbf/min-temperature 15.56
@@ -223,9 +223,9 @@
 
 
 (def gf-all-american-ale-1272
-  "Popular all purpose American ale style now in a Gluten Free strain. 
-   
-   Produces beers that are nutty, clean with a slight tart finish. 
+  "Popular all purpose American ale style now in a Gluten Free strain.
+
+   Produces beers that are nutty, clean with a slight tart finish.
    Ferment warmer to accentuate hops and add fruitiness or ferment cold for clean light citrus character."
   (yeasts/build-yeasts :gf-all-american-ale-1272
                        {cbf/min-temperature 15.56
@@ -242,9 +242,9 @@
 
 
 (def thames-valley-ale-1275
-  "Clean, complex flavor. 
-   
-   Low in fruit, low in esters, rich in flavor. 
+  "Clean, complex flavor.
+
+   Low in fruit, low in esters, rich in flavor.
    Hops come through well."
   (yeasts/build-yeasts :thames-valley-ale-1275
                        {cbf/min-temperature 16.67
@@ -261,8 +261,8 @@
 
 
 (def london-ale-iii-1318
-  "Light, fruity flavor. 
-   
+  "Light, fruity flavor.
+
    Balanced flavor with hint of sweetness."
   (yeasts/build-yeasts :london-ale-iii-1318
                        {cbf/min-temperature 17.78
@@ -279,8 +279,8 @@
 
 
 (def northwest-ale-1332
-  "Classic Northwest US ale yeast. 
-   
+  "Classic Northwest US ale yeast.
+
    Slight fruit flavor, malty ale with good body and balance."
   (yeasts/build-yeasts :northwest-ale-1332
                        {cbf/min-temperature 18.33
@@ -297,8 +297,8 @@
 
 
 (def british-ale-ii-1335
-  "Malty, clean, crisp finish. 
-   
+  "Malty, clean, crisp finish.
+
    Dry flavor."
   (yeasts/build-yeasts :british-ale-ii-1335
                        {cbf/min-temperature 17.22
@@ -315,8 +315,8 @@
 
 
 (def european-ale-yeast-1338
-  "Very malty flavor characteristic of Bavarian/Munich Ales. 
-   
+  "Very malty flavor characteristic of Bavarian/Munich Ales.
+
    Complex character."
   (yeasts/build-yeasts :european-ale-yeast-1338
                        {cbf/min-temperature 16.67
@@ -333,8 +333,8 @@
 
 
 (def belgian-strong-ale-1388
-  "Dry, tart, fruity flavor. 
-   
+  "Dry, tart, fruity flavor.
+
    High alcohol tolerance."
   (yeasts/build-yeasts :belgian-strong-ale-1388
                        {cbf/min-temperature 18.33
@@ -352,7 +352,7 @@
 
 (def denny-s-favorite-50-1450
   "This terrific all-round yeast can be used for almost any beer style, and is a mainstay of one of our local homebrewers, Mr. Denny Conn.
-   
+
    It is unique in that it produces a big mouthfeel and accentuates the malt, caramel, or fruit character of a beer without being sweet or under-attenuated."
   (yeasts/build-yeasts :denny-s-favorite-50-1450
                        {cbf/min-temperature 15.56
@@ -385,8 +385,8 @@
 
 
 (def belgian-abbey-ii-1762
-  "Dry flavor with slight fruitiness. 
-   
+  "Dry flavor with slight fruitiness.
+
    High alcohol tolerance."
   (yeasts/build-yeasts :belgian-abbey-ii-1762
                        {cbf/min-temperature 18.33
@@ -403,9 +403,9 @@
 
 
 (def london-esb-ale-1968
-  "Malty, balanced flavor. 
-   
-   Fruity, rich finish. 
+  "Malty, balanced flavor.
+
+   Fruity, rich finish.
    Excellent for cask conditioned ales and bitters."
   (yeasts/build-yeasts :london-esb-ale-1968
                        {cbf/min-temperature 17.78
@@ -422,10 +422,10 @@
 
 
 (def budvar-lager-2000
-  "Classic pilsner lager yeast. 
-   
-   Malty nose and subtle fruit. 
-   Rich malt profile, but dry crisp finish. 
+  "Classic pilsner lager yeast.
+
+   Malty nose and subtle fruit.
+   Rich malt profile, but dry crisp finish.
    Hop character accentuated by dry finish."
   (yeasts/build-yeasts :budvar-lager-2000
                        {cbf/min-temperature 7.78
@@ -442,10 +442,10 @@
 
 
 (def urquell-lager-2001
-  "Pilsner Urquell yeast with mild fruit/floral aroma. 
-   
-   Very dry and clean on palate with full mouth feel. 
-   Subtle malt character. 
+  "Pilsner Urquell yeast with mild fruit/floral aroma.
+
+   Very dry and clean on palate with full mouth feel.
+   Subtle malt character.
    Clean and neutral finish."
   (yeasts/build-yeasts :urquell-lager-2001
                        {cbf/min-temperature 8.89
@@ -462,9 +462,9 @@
 
 
 (def pilsen-lager-2007
-  "Classic American pilsner strain. 
-   
-   Smooth with a malty flavor. 
+  "Classic American pilsner strain.
+
+   Smooth with a malty flavor.
    Dry and crisp fermentation."
   (yeasts/build-yeasts :pilsen-lager-2007
                        {cbf/min-temperature 8.89
@@ -481,8 +481,8 @@
 
 
 (def american-lager-2035
-  "Bold, with a complex aroma. 
-   
+  "Bold, with a complex aroma.
+
    Good flavor depth characteristics for a wide variety of lager beers."
   (yeasts/build-yeasts :american-lager-2035
                        {cbf/min-temperature 8.89
@@ -499,8 +499,8 @@
 
 
 (def danish-lager-2042
-  "Rich, Dortmund style, with a crisp, dry finish. 
-   
+  "Rich, Dortmund style, with a crisp, dry finish.
+
    Soft profile accentuates hop flavor."
   (yeasts/build-yeasts :danish-lager-2042
                        {cbf/min-temperature 7.78
@@ -517,8 +517,8 @@
 
 
 (def california-lager-2112
-  "Suited for 19th century California style beers. 
-   
+  "Suited for 19th century California style beers.
+
    Lagers at high temperature and produces malty, clear beers."
   (yeasts/build-yeasts :california-lager-2112
                        {cbf/min-temperature 14.44
@@ -551,8 +551,8 @@
 
 
 (def wyeast-lager-blend-2178
-  "Blend of lager strains to produce a complex but clean lager flavor profile. 
-   
+  "Blend of lager strains to produce a complex but clean lager flavor profile.
+
    Suitable for many common lager styles."
   (yeasts/build-yeasts :wyeast-lager-blend-2178
                        {cbf/min-temperature 8.89
@@ -569,8 +569,8 @@
 
 
 (def bavarian-lager-2206
-  "Use by many German breweries. 
-   
+  "Use by many German breweries.
+
    Produces a full-bodied, rich, malty beer."
   (yeasts/build-yeasts :bavarian-lager-2206
                        {cbf/min-temperature 7.78
@@ -587,8 +587,8 @@
 
 
 (def european-lager-ii-2247
-  "Clean, dry flavor profile for aggressively hopped pilsners. 
-   
+  "Clean, dry flavor profile for aggressively hopped pilsners.
+
    Dry finish, mild aroma, slight sulfur production."
   (yeasts/build-yeasts :european-lager-ii-2247
                        {cbf/min-temperature 7.78
@@ -605,8 +605,8 @@
 
 
 (def north-american-lager-2272
-  "American and Canadian lager yeast. 
-   
+  "American and Canadian lager yeast.
+
    Malty finish makes it suitable for Marzens/Oktoberfest as well."
   (yeasts/build-yeasts :north-american-lager-2272
                        {cbf/min-temperature 8.89
@@ -623,9 +623,9 @@
 
 
 (def czech-pilsner-lager-2278
-  "Classic Pilsner strain. 
-   
-   Creates a dry but malty finish. 
+  "Classic Pilsner strain.
+
+   Creates a dry but malty finish.
    Perfect for Pilsners and bocks. Some sulfur produced, but will fade with time."
   (yeasts/build-yeasts :czech-pilsner-lager-2278
                        {cbf/min-temperature 10.0
@@ -642,9 +642,9 @@
 
 
 (def munich-lager-2308
-  "Unique Pilsner strain. 
-   
-   Very smooth, well-rounded and full bodied. 
+  "Unique Pilsner strain.
+
+   Very smooth, well-rounded and full bodied.
    Benefits from a diacetyl rest."
   (yeasts/build-yeasts :munich-lager-2308
                        {cbf/min-temperature 8.89
@@ -661,8 +661,8 @@
 
 
 (def kolsch-yeast-2565
-  "Very malty flavor with mix of lager and ale character. 
-   
+  "Very malty flavor with mix of lager and ale character.
+
    Crisp, clean finish."
   (yeasts/build-yeasts :kolsch-yeast-2565
                        {cbf/min-temperature 13.33
@@ -679,9 +679,9 @@
 
 
 (def octoberfest-lager-blend-2633
-  "This blend of lager strains is designed to produce a rich, malty, complex and full bodied Octoberfest style beer. 
-   
-   It attenuates well while leaving plenty of malt character and mouthfeel. 
+  "This blend of lager strains is designed to produce a rich, malty, complex and full bodied Octoberfest style beer.
+
+   It attenuates well while leaving plenty of malt character and mouthfeel.
    This strain is low in sulfur production."
   (yeasts/build-yeasts :octoberfest-lager-blend-2633
                        {cbf/min-temperature 8.89
@@ -714,8 +714,8 @@
 
 
 (def weihenstephan-weizen-3068
-  "Unique Bavarian wheat yeast that produces the spicy weizen clove and banana flavor. 
-   
+  "Unique Bavarian wheat yeast that produces the spicy weizen clove and banana flavor.
+
    Best when fermented at around 68 deg F."
   (yeasts/build-yeasts :weihenstephan-weizen-3068
                        {cbf/min-temperature 17.78
@@ -732,9 +732,9 @@
 
 
 (def brettanomyces-bruxellensis-3112
-  "Wild yeast strain isolated from Brussels region of Belgium. 
-   
-   Adds classic sweaty horse hair flavor as well as sourness and cherry-pie like flavor. 
+  "Wild yeast strain isolated from Brussels region of Belgium.
+
+   Adds classic sweaty horse hair flavor as well as sourness and cherry-pie like flavor.
    Generally used in conjunction with S. Cerevisiae after the primary fermentation has begun."
   (yeasts/build-yeasts :brettanomyces-bruxellensis-3112
                        {cbf/min-temperature 15.56
@@ -751,8 +751,8 @@
 
 
 (def belgian-lambic-blend-3278
-  "Lambic culture of Saccharomyces Cerevisiar and a mixture of yeasts and bacterias. 
-   
+  "Lambic culture of Saccharomyces Cerevisiar and a mixture of yeasts and bacterias.
+
    Blend of organisms helps create lactic flavor of Belgian Lambics."
   (yeasts/build-yeasts :belgian-lambic-blend-3278
                        {cbf/min-temperature 17.22
@@ -769,8 +769,8 @@
 
 
 (def german-wheat-3333
-  "Subtle flavor profile. 
-   
+  "Subtle flavor profile.
+
    Sharp, fruity, crisp, sherry like flavor."
   (yeasts/build-yeasts :german-wheat-3333
                        {cbf/min-temperature 17.22
@@ -787,8 +787,8 @@
 
 
 (def forbidden-fruit-3463
-  "Phenolic profile with subdued fruitiness. 
-   
+  "Phenolic profile with subdued fruitiness.
+
    Available seasonally."
   (yeasts/build-yeasts :forbidden-fruit-3463
                        {cbf/min-temperature 17.22
@@ -806,7 +806,7 @@
 
 (def belgian-ardennes-3522
   "Phenolics develop at increased temperature.
-   
+
    Mild fruitiness and complex spicy flavor."
   (yeasts/build-yeasts :belgian-ardennes-3522
                        {cbf/min-temperature 18.33
@@ -823,9 +823,9 @@
 
 
 (def bavarian-wheat-3638
-  "Hefeweizen yeast with complex flavor and aroma. 
-   
-   Bubble gum, banana flavors with apple/plum ester profile. 
+  "Hefeweizen yeast with complex flavor and aroma.
+
+   Bubble gum, banana flavors with apple/plum ester profile.
    Malty flavor."
   (yeasts/build-yeasts :bavarian-wheat-3638
                        {cbf/min-temperature 17.78
@@ -842,8 +842,8 @@
 
 
 (def french-saison-3711
-  "A very versatile strain that produces Saison or farmhouse style biers as well as other Belgian style beers that are highly aromatic (estery), peppery, spicy and citrusy. 
-   
+  "A very versatile strain that produces Saison or farmhouse style biers as well as other Belgian style beers that are highly aromatic (estery), peppery, spicy and citrusy.
+
    This strain enhances the use of spices and aroma hops, and is extremely attenuative."
   (yeasts/build-yeasts :french-saison-3711
                        {cbf/min-temperature 18.33
@@ -860,12 +860,12 @@
 
 
 (def belgian-saison-3724
-  "Classic farmhouse ale yeast. 
-   
-   Spicy, complex aromatics including bubble gum. 
-   Tart and dry on the palate with mild fruitiness. 
-   Finishes crisp and mildly acidic. 
-   Ferment at warm temperature. 
+  "Classic farmhouse ale yeast.
+
+   Spicy, complex aromatics including bubble gum.
+   Tart and dry on the palate with mild fruitiness.
+   Finishes crisp and mildly acidic.
+   Ferment at warm temperature.
    May have vigorous fermentation start."
   (yeasts/build-yeasts :belgian-saison-3724
                        {cbf/min-temperature 21.11
@@ -882,10 +882,10 @@
 
 
 (def roselare-belgian-blend-3763
-  "Culture of Saccharomyces, Brettonomyces and Lactic Acid Bacteria. 
-   
-   Complex aromas and flavors. 
-   May be used for primary fermentation. 
+  "Culture of Saccharomyces, Brettonomyces and Lactic Acid Bacteria.
+
+   Complex aromas and flavors.
+   May be used for primary fermentation.
    Primarily for sour brown and red Belgian styles."
   (yeasts/build-yeasts :roselare-belgian-blend-3763
                        {cbf/min-temperature 12.78
@@ -902,9 +902,9 @@
 
 
 (def trappist-high-gravity-3787
-  "Robust top cropping yeast. 
-   
-   Phenolic character and alcohol tolerance up to 12%. 
+  "Robust top cropping yeast.
+
+   Phenolic character and alcohol tolerance up to 12%.
    Rich ester profile and malty flavor."
   (yeasts/build-yeasts :trappist-high-gravity-3787
                        {cbf/min-temperature 17.78
@@ -921,8 +921,8 @@
 
 
 (def belgian-wheat-yeast-3942
-  "Estery lor phenol yeast. 
-   
+  "Estery lor phenol yeast.
+
    lum and apple aroma with a dry finish."
   (yeasts/build-yeasts :belgian-wheat-yeast-3942
                        {cbf/min-temperature 17.78
@@ -939,9 +939,9 @@
 
 
 (def belgian-witbier-3944
-  "Tart, slightly phenolic character. 
-   
-   For Wits and Grand Cru. 
+  "Tart, slightly phenolic character.
+
+   For Wits and Grand Cru.
    Tolerates high gravity beers well."
   (yeasts/build-yeasts :belgian-witbier-3944
                        {cbf/min-temperature 16.67
@@ -958,9 +958,9 @@
 
 
 (def lactobacillus-delbrueckii-4335
-  "Lactic acid bacteria isolated from Belgium. 
-   
-   Produces mild acidity and sourness found in many types of Belgian beers. 
+  "Lactic acid bacteria isolated from Belgium.
+
+   Produces mild acidity and sourness found in many types of Belgian beers.
    Always used in conjunction with S. Cerevisiae and wild yeasts."
   (yeasts/build-yeasts :lactobacillus-delbrueckii-4335
                        {cbf/min-temperature 15.56
@@ -977,9 +977,9 @@
 
 
 (def pediococcus-cerevisiae-4733
-  "Lactic acid bacteria isolated from Belgium. 
-   
-   Creates a high level of lactic acidity over a long time. 
+  "Lactic acid bacteria isolated from Belgium.
+
+   Creates a high level of lactic acidity over a long time.
    Often used with other yeasts, and it may take several months for flavor to fully develop."
   (yeasts/build-yeasts :pediococcus-cerevisiae-4733
                        {cbf/min-temperature 15.56
@@ -996,8 +996,8 @@
 
 
 (def brettanomyces-bruxellensis-5112
-  "This strain of wild yeast was isolated from brewery cultures in the Brussels region of Belgium. 
-   
+  "This strain of wild yeast was isolated from brewery cultures in the Brussels region of Belgium.
+
    It produces the classic sweaty horse blanket character and may form a pellicle in bottles or casks."
   (yeasts/build-yeasts :brettanomyces-bruxellensis-5112
                        {cbf/min-temperature 15.56
@@ -1014,7 +1014,7 @@
 
 
 (def lactobacillus-5335
-  "Lactic acid bacteria isolated from a Belgian brewery. 
+  "Lactic acid bacteria isolated from a Belgian brewery.
    This culture produces moderate levels of acidity and is commonly found in many types of beers including gueuze, lambics, sour brown ales and Berliner Weisse."
   (yeasts/build-yeasts :lactobacillus-5335
                        {cbf/min-temperature 15.56
@@ -1031,10 +1031,10 @@
 
 
 (def brettanomyces-lambucus-5526
-  "This is a wild yeast strain isolated from Belgian lambic beers. 
-   
-   It produces a pie cherry-like flavor and sourness with a distinct Brett character. 
-   A pellicle may form in bottles or casks. 
+  "This is a wild yeast strain isolated from Belgian lambic beers.
+
+   It produces a pie cherry-like flavor and sourness with a distinct Brett character.
+   A pellicle may form in bottles or casks.
    This strain works best in conjunction with other yeasts."
   (yeasts/build-yeasts :brettanomyces-lambucus-5526
                        {cbf/min-temperature 15.56
@@ -1051,10 +1051,10 @@
 
 
 (def pediococcus-5733
-  "Lactic acid bacteria used in the production of Belgian style beers where additional acidity is desirable. 
-   
-   Often found in gueuze and other Belgian style beer. 
-   Acid production will increase with storage time. 
+  "Lactic acid bacteria used in the production of Belgian style beers where additional acidity is desirable.
+
+   Often found in gueuze and other Belgian style beer.
+   Acid production will increase with storage time.
    It may also cause ropiness and produce low level."
   (yeasts/build-yeasts :pediococcus-5733
                        {cbf/min-temperature 18.33
@@ -1072,7 +1072,7 @@
 
 (def wyeast
   "Data for yeasts cultivated by Wyeast.
-   
+
    https://wyeastlab.com/"
   (merge german-ale-1007
          american-wheat-ale-1010

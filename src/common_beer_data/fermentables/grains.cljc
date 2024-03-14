@@ -17,7 +17,7 @@
 
 (def acid-malt
   "Acid malt contains acids from natural lactic acids.
-   
+
    Used by German brewers to adjust malt PH without chemicals to adhere to German purity laws.
    Also enhances head retention."
   (build-grain :acid-malt
@@ -37,7 +37,7 @@
 
 (def amber-malt
   "Roasted specialty malt used in some English browns, milds and old ales to add color and a biscuit taste.
-   
+
    Intense flavor - so limit use.
    Low diastatic power so must be mashed with well modified malts."
   (build-grain :amber-malt
@@ -74,7 +74,7 @@
 
 (def barley-flaked
   "Adds significant body to Porters and Stouts.
-   
+
    High haze producing protein prevents use in light beers."
   (build-grain :barley-flaked
                {cbf/name             "Barley, Flaked"
@@ -93,7 +93,7 @@
 
 (def barley-raw
   "Raw, unmalted barley can be used to add body to your beer.
-   
+
    Use in homebrew requires very fine milling combined with a decoction or multi-stage mash.
    Performs best when used in small quantities with well modified grains."
   (build-grain :barley-raw
@@ -113,7 +113,7 @@
 
 (def barley-torrefied
   "Raw barley that has been popped to open the kernels.
-   
+
    Used in place of raw barley for faster conversion and higher yields.
    High in haze producing protein."
   (build-grain :barley-torrefied
@@ -133,7 +133,7 @@
 
 (def biscuit-malt
   "Use for English ales, brown ales and porters.
-   
+
    Adds a biscuit like flavor and aroma.
    Can be used as a substitute for toasted malt."
   (build-grain :biscuit-malt
@@ -153,7 +153,7 @@
 
 (def black-patent-malt
   "Dark color and dry roasted flavor characteristic of Stouts and Porters.
-   
+
    Used for: Coloring in small amounts, or flavoring of Stouts and Porters in larger amounts."
   (build-grain :black-patent-malt
                {cbf/name             "Black (Patent) Malt"
@@ -172,7 +172,7 @@
 
 (def black-barley-stout
   "Unmalted barley roasted at high temperature to create a dry, coffee like flavor.
-   
+
    Imparts a sharp acrid flavor characteristic of dry stouts.
    Gives dryness to a stout or porter."
   (build-grain :black-barley-stout
@@ -192,7 +192,7 @@
 
 (def brown-malt
   "Imparts a dry, biscuit flavor.
-   
+
    Used in nut brown ales, porters and some Belgian ales."
   (build-grain :brown-malt
                {cbf/name             "Brown Malt"
@@ -211,7 +211,7 @@
 
 (def brumalt
   "Dark German malt developed to add malt flavor of Alt, Marzen and Oktoberfest beers.
-   
+
    Helps create authentic maltiness without having to do a decoction mash."
   (build-grain :brumalt
                {cbf/name             "Brumalt"
@@ -468,7 +468,7 @@
 
 (def caramunich-malt
   "Caramel, copper colored malt.
-   
+
    Used in Belgian ales and German bocks."
   (build-grain :caramunich-malt
                {cbf/name             "Caramunich Malt"
@@ -504,7 +504,7 @@
 
 (def caravienne-malt
   "Light Belgian crystal malt.
-   
+
    Used in light Trappist and Abbey style Belgian ales."
   (build-grain :caravienne-malt
                {cbf/name             "Caravienne Malt"
@@ -523,7 +523,7 @@
 
 (def chocolate-malt
   "Dark malt that gives a rich red or brown color and nutty flavor.
-   
+
    Maintains some malty flavor, not as dark as roasted malt."
   (build-grain :chocolate-malt
                {cbf/name             "Chocolate Malt"
@@ -542,7 +542,7 @@
 
 (def chocolate-malt-uk
   "Dark malt that gives a rich red or brown color and nutty flavor.
-   
+
    Maintains some malty flavor, not as dark as roasted malt."
   (build-grain :chocolate-malt-uk
                {cbf/name             "Chocolate Malt (UK)"
@@ -595,7 +595,7 @@
 
 (def melanoiden-malt
   "Aromatic malt from Banberg, Germany.
-   
+
    Promotes a full flavor and rounds off beer color.
    Promotes deep red color and malty flavor."
   (build-grain :melanoiden-malt
@@ -632,8 +632,8 @@
 
 (def munich-malt
   "Malty-sweet flavor characteristic and adds a reddish amber color to the beer.
-   
-   Does not contribute signficantly to body or head retention."
+
+   Does not contribute significantly to body or head retention."
   (build-grain :munich-malt
                {cbf/name             "Munich Malt"
                 cbf/potential        1.037
@@ -646,7 +646,7 @@
                 cbf/diastatic-power  72
                 cbf/max-in-batch     0.8
                 cbf/protein          0.115
-                cbf/notes            "Malty-sweet flavor characteristic and adds a reddish amber color to the beer. Does not contribute signficantly to body or head retention."}))
+                cbf/notes            "Malty-sweet flavor characteristic and adds a reddish amber color to the beer. Does not contribute significantly to body or head retention."}))
 
 
 (def munich-malt-10l
@@ -685,7 +685,7 @@
 
 (def oats-flaked
   "Adds body, mouth feel and head retention to the beer.
-   
+
    Adds substantial protein haze to light beers.
    Protein rest recommended unless flakes are pre-gelatinized."
   (build-grain :oats-flaked
@@ -705,7 +705,7 @@
 
 (def oats-malted
   "Malted oats. Adds body, mouth feel and head retention to the beer.
-   
+
    Creates chill haze in lighter beers, so is primarily used in dark ones."
   (build-grain :oats-malted
                {cbf/name             "Oats, Malted"
@@ -792,7 +792,7 @@
 
 (def peat-smoked-malt
   "Robust smoky malt that provides a smoky flavor.
-   
+
    Used in scottish ales and wee heavy ales."
   (build-grain :peat-smoked-malt
                {cbf/name             "Peat Smoked Malt"
@@ -862,7 +862,7 @@
 
 (def rice-flaked
   "Used to add fermentable sugar without increasing body.
-   
+
    Produces a milder, less grainy tasting beer."
   (build-grain :rice-flaked
                {cbf/name             "Rice, Flaked"
@@ -881,7 +881,7 @@
 
 (def roasted-barley
   "Roasted at high temperature to create a burnt, grainy, coffee like flavor.
-   
+
    Imparts a red to deep brown color to beer, and very strong roasted flavor."
   (build-grain :roasted-barley
                {cbf/name             "Roasted Barley"
@@ -900,7 +900,7 @@
 
 (def rye-malt
   "Adds a dry, crisp character to the beer.
-   
+
    Yields a deep red color, and a distinctive rye flavor."
   (build-grain :rye-malt
                {cbf/name             "Rye Malt"
@@ -953,7 +953,7 @@
 
 (def special-b-malt
   "Extreme caramel aroma and flavored malt.
-   
+
    Used in dark Belgian Abbey and Trappist ales."
   (build-grain :special-b-malt
                {cbf/name             "Special B Malt"
@@ -972,7 +972,7 @@
 
 (def special-roast
   "Use for English ales, nut brown ales and porters.
-   
+
    Adds a toasted, biscuit like flavor and aroma."
   (build-grain :special-roast
                {cbf/name             "Special Roast"
@@ -1025,7 +1025,7 @@
 
 (def vienna-malt
   "Kiln dried malt darker than Pale Malt, but not as dark as Munich Malt.
-   
+
    Imparts a golden to orange color to the beer."
   (build-grain :vienna-malt
                {cbf/name             "Vienna Malt"
@@ -1095,7 +1095,7 @@
 
 (def wheat-flaked
   "Flaked wheat adds to increased body and foam retention.
-   
+
    May be used in small amounts to improve head retention and body."
   (build-grain :wheat-flaked
                {cbf/name             "Wheat, Flaked"
@@ -1114,7 +1114,7 @@
 
 (def wheat-roasted
   "Also called Chocolate Wheat Malt.
-   
+
    Adds a deep, dark brown color to dunkelweizens and other dark beer styles."
   (build-grain :wheat-roasted
                {cbf/name             "Wheat, Roasted"
@@ -1133,7 +1133,7 @@
 
 (def wheat-torrified
   "Unmodified wheat that has been popped to open the kernels.
-   
+
    Protein rest recommended when mashing."
   (build-grain :wheat-torrified
                {cbf/name             "Wheat, Torrified"

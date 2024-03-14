@@ -55,7 +55,7 @@
 
 (def mt-hood
   "Hallertau derivant.
-   
+
    Mild spicy flavor."
   (hops/build-hop :mt-hood
                   {cbf/beta          0.08
@@ -89,7 +89,7 @@
 
 (def simcoe
   "Bright citrus flavors with earthy undertones.
-   
+
    Aromas of grapefruit, pine, and herbs."
   (hops/build-hop :simcoe
                   {cbf/beta          0.05
@@ -155,7 +155,7 @@
 
 (def sterling
   "Derivant of Saaz.
-   
+
    Similar earthen and spice notes."
   (hops/build-hop :sterling
                   {cbf/beta          0.06
@@ -237,7 +237,7 @@
 
 (def golding-us
   "Direct descendants of East Kent Golding.
-   
+
    Delicate fruit and herbal aromas."
   (hops/build-hop :golding-us
                   {cbf/beta          0.03
@@ -303,7 +303,7 @@
 
 (def saaz-us
   "Also called Saazer.
-   
+
    Strong herbal character."
   (hops/build-hop :saaz-us
                   {cbf/beta          0.045
@@ -321,7 +321,7 @@
 
 (def palisade
   "Flavors of nectar fruits and citrus.
-   
+
    Aromas that are floral, herbaceous, and grassy."
   (hops/build-hop :palisade
                   {cbf/beta          0.08
@@ -338,9 +338,9 @@
 
 
 (def centennial
-  "Also sold as Super Cascade. 
-   
-   Earthy and floral flavor with faint citrues notes."
+  "Also sold as Super Cascade.
+
+   Earthy and floral flavor with faint citrus notes."
   (hops/build-hop :centennial
                   {cbf/beta          0.045
                    cbf/name          "Centennial"
@@ -349,7 +349,7 @@
                    cbf/myrcene       0.5
                    cbf/humulene      0.14
                    cbf/hsi           0.6
-                   cbf/notes         "Also sold as Super Cascade. Earthy and floral flavor with faint citrues notes."
+                   cbf/notes         "Also sold as Super Cascade. Earthy and floral flavor with faint citrus notes."
                    cbf/caryophyllene 0.05
                    cbf/alpha         0.115
                    cbf/substitutes   "Chinook, Galena, CTZ"}))
@@ -357,7 +357,7 @@
 
 (def hallertau-us
   "Sometimes sold as Mittelfrüher.
-   
+
    Light aroma of spice and floral notes."
   (hops/build-hop :hallertau-us
                   {cbf/beta          0.055
@@ -375,7 +375,7 @@
 
 (def amarillo
   "Known as VGXP01.
-   
+
    Strong orange flavor."
   (hops/build-hop :amarillo
                   {cbf/beta          0.07
