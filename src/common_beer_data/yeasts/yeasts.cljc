@@ -1,5 +1,7 @@
 (ns ^:no-doc common-beer-data.yeasts.yeasts
   "Function to help minimize repeated data in yeast entry"
+  {:no-doc true
+   :added  "1.0"}
   (:require [clojure.string :as str]
             [common-beer-format.yeasts :as cbf]))
 

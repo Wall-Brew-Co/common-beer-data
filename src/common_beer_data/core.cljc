@@ -9,6 +9,7 @@
             [common-beer-data.hops.aroma :as aroma]
             [common-beer-data.hops.bittering :as bittering]
             [common-beer-data.hops.both :as both]
+            [common-beer-data.options :as opts]
             [common-beer-data.styles.bjcp-2015.bjcp-2015 :as bjcp-2015]
             [common-beer-data.yeasts.brewtek :as brewtek]
             [common-beer-data.yeasts.dcl-fermentis :as dcl-fermentis]
@@ -38,11 +39,11 @@
 (def all-fermentables
   "A map from keywords to `common-beer-format.fermentables/fermentable` maps for all fermentables.
    This is a convenience function for `select-fermentables` with all options set to true."
-  (select-fermentables {:include-adjuncts?     true
-                        :include-dry-extracts? true
-                        :include-extracts?     true
-                        :include-grains?       true
-                        :include-sugars?       true}))
+  (select-fermentables {opts/include-adjuncts?     true
+                        opts/include-dry-extracts? true
+                        opts/include-extracts?     true
+                        opts/include-grains?       true
+                        opts/include-sugars?       true}))
 
 
 (defn get-fermentable
@@ -73,9 +74,9 @@
 (def all-hops
   "A map from keywords to `common-beer-format.hops/hop` maps for all hops.
    This is a convenience function for `select-hops` with all options set to true."
-  (select-hops {:include-aroma?     true
-                :include-bittering? true
-                :include-both?      true}))
+  (select-hops {opts/include-aroma?     true
+                opts/include-bittering? true
+                opts/include-both?      true}))
 
 
 (defn get-hop
@@ -102,7 +103,7 @@
 (def all-style-guides
   "A map from keywords to `common-beer-format.stlyes/style` maps for all style guides.
    This is a convenience function for `select-style-guides` with all options set to true."
-  (select-style-guides {:include-bjcp-2015? true}))
+  (select-style-guides {opts/include-bjcp-2015? true}))
 
 
 (defn select-yeasts
@@ -126,11 +127,11 @@
 (def all-yeasts
   "A map from keywords to `common-beer-format.yeasts/yeast` maps for all yeasts.
    This is a convenience function for `select-yeasts` with all options set to true."
-  (select-yeasts {:include-brewtek?       true
-                  :include-dcl-fermentis? true
-                  :include-lallemand?     true
-                  :include-white-labs?    true
-                  :include-wyeast?        true}))
+  (select-yeasts {opts/include-brewtek?       true
+                  opts/include-dcl-fermentis? true
+                  opts/include-lallemand?     true
+                  opts/include-white-labs?    true
+                  opts/include-wyeast?        true}))
 
 
 #_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
