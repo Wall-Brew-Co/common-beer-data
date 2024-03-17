@@ -1,0 +1,11 @@
+{:version      {:major 1
+                :minor 5
+                :patch 0}
+ :version-type :semver3
+ :changes      {:added      ["Symbolic keywords for all options in `select-fermentables`, `select-hops`, `select-style-guides`, and `select-yeasts`."]
+                :changed    ["Bumped common-beer-format dependency to 2.3.0."]
+                :deprecated []
+                :removed    []
+                :fixed      []
+                :security   []}
+ :timestamp    "2024-03-17T21:59:51.644748Z"}

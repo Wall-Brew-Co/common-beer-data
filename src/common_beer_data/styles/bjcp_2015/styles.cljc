@@ -1,6 +1,7 @@
 (ns ^:no-doc common-beer-data.styles.bjcp-2015.styles
   "Function to help minimize repeated data in 2015 BJCP style guidelines"
-  {:added "1.0"}
+  {:added  "1.0"
+   :no-doc true}
   (:require [common-beer-format.styles :as cbf]))
 
 

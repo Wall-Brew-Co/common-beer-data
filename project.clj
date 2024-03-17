@@ -1,4 +1,4 @@
-(defproject com.wallbrew/common-beer-data "1.4.0"
+(defproject com.wallbrew/common-beer-data "1.5.0"
   :description "A repository of common-beer-format data."
   :url "https://github.com/Wall-Brew-Co/common-beer-data"
   :license {:name         "MIT"
@@ -7,7 +7,7 @@
             :comments     "Same-as all Wall-Brew projects"}
   :scm {:name "git"
         :url  "https://github.com/Wall-Brew-Co/common-beer-data"}
-  :dependencies [[com.wallbrew/common-beer-format "2.2.2"]
+  :dependencies [[com.wallbrew/common-beer-format "2.3.0"]
                  [org.clojure/clojure "1.11.2"]
                  [org.clojure/clojurescript "1.11.132" :scope "provided"]]
   :plugins [[com.github.clj-kondo/lein-clj-kondo "2024.03.13"]

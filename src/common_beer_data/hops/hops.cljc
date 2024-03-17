@@ -1,6 +1,7 @@
 (ns ^:no-doc common-beer-data.hops.hops
   "Function to help minimize repeated data in hop entry."
-  {:added "1.0"}
+  {:added  "1.0"
+   :no-doc true}
   (:require [common-beer-format.hops :as cbf]))
 
 
