@@ -6,12 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## Table of Contents
 
+* [1.5.0 - 2024-03-17](#150---2024-03-17)
 * [1.4.0 - 2024-03-14](#140---2024-03-14)
 * [1.3.1 - 2024-03-10](#131---2024-03-10)
 * [1.3.0 - 2023-03-09](#130---2023-03-09)
 * [1.2.0 - 2023-02-10](#120---2023-02-10)
 * [1.1.0 - 2023-02-09](#110---2023-02-09)
 * [1.0.0 - 2022-07-09](#100---2022-07-09)
+
+## 1.5.0 - 2024-03-17
+
+* Added
+  * Symbolic keywords for all options in `select-fermentables`, `select-hops`, `select-style-guides`, and `select-yeasts`.
+* Changed
+  * Bumped common-beer-format dependency to 2.3.0.
 
 ## 1.4.0 - 2024-03-14
 

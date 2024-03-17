@@ -7,7 +7,7 @@
 
 (def include-adjuncts?
   "A keyword option for `select-fermentables` to include adjuncts."
-  :include-adjuncta?)
+  :include-adjuncts?)
 
 
 (def include-dry-extracts?
