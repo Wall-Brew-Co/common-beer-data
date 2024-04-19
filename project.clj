@@ -21,7 +21,7 @@
                                       [org.clojure/spec.alpha "0.4.233"]]
                        :plugins      [[lein-doo "0.1.11"]]}
              :export  {:source-paths ["src" "dev"]
-                       :dependencies [[cheshire "5.12.0"]
+                       :dependencies [[cheshire "5.13.0"]
                                       [com.wallbrew/clj-xml "1.9.0"]]}}
 
   :min-lein-version "2.5.3"
