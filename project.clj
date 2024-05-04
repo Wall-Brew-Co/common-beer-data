@@ -16,7 +16,7 @@
             [lein-project-version "0.1.0"]
             [mvxcvi/cljstyle "0.16.630"]]
   :profiles {:uberjar {:aot :all}
-             :dev     {:dependencies [[com.wallbrew/spoon "1.2.2"]
+             :dev     {:dependencies [[com.wallbrew/spoon "1.2.3"]
                                       [doo "0.1.11"]
                                       [org.clojure/spec.alpha "0.4.233"]]
                        :plugins      [[lein-doo "0.1.11"]]}
