@@ -22,7 +22,7 @@
                        :plugins      [[lein-doo "0.1.11"]]}
              :export  {:source-paths ["src" "dev"]
                        :dependencies [[cheshire "5.13.0"]
-                                      [com.wallbrew/clj-xml "1.9.0"]]}}
+                                      [com.wallbrew/clj-xml "1.9.1"]]}}
 
   :min-lein-version "2.5.3"
   :deploy-branches ["master"]
