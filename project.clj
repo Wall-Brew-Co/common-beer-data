@@ -7,21 +7,24 @@
             :comments     "Same-as all Wall-Brew projects"}
   :scm {:name "git"
         :url  "https://github.com/Wall-Brew-Co/common-beer-data"}
+  :pom-addition [:organization
+                 [:name "Wall Brew Co."]
+                 [:url "https://wallbrew.com"]]
   :dependencies [[com.wallbrew/common-beer-format "2.3.0"]
                  [org.clojure/clojure "1.12.0"]
                  [org.clojure/clojurescript "1.11.132" :scope "provided"]]
   :plugins [[com.github.clj-kondo/lein-clj-kondo "2024.08.29"]
+            [com.wallbrew/bouncer "1.0.0"]
             [com.wallbrew/lein-sealog "1.6.0"]
-            [lein-cljsbuild "1.1.8"]
-            [lein-project-version "0.1.0"]
+            [lein-cljsbuild/lein-cljsbuild "1.1.8"]
             [mvxcvi/cljstyle "0.16.630"]]
   :profiles {:uberjar {:aot :all}
              :dev     {:dependencies [[com.wallbrew/spoon "1.2.3"]
-                                      [doo "0.1.11"]
+                                      [doo/doo "0.1.11"]
                                       [org.clojure/spec.alpha "0.5.238"]]
-                       :plugins      [[lein-doo "0.1.11"]]}
+                       :plugins      [[lein-doo/lein-doo "0.1.11"]]}
              :export  {:source-paths ["src" "dev"]
-                       :dependencies [[cheshire "5.13.0"]
+                       :dependencies [[cheshire/cheshire "5.13.0"]
                                       [com.wallbrew/clj-xml "1.9.1"]]}}
 
   :min-lein-version "2.5.3"
