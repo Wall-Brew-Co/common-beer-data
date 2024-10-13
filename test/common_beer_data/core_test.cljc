@@ -1,21 +1,20 @@
 (ns common-beer-data.core-test
   (:require [clojure.string :as str]
+            [clojure.test :refer [deftest is testing]]
             [com.wallbrew.spoon.spec :as spoon.spec]
             [common-beer-data.core :as data]
             [common-beer-format.fermentables :as fermentables]
             [common-beer-format.hops :as hops]
             [common-beer-format.styles :as styles]
-            [common-beer-format.yeasts :as yeasts]
-            #? (:clj  [clojure.test :refer [deftest is testing]])
-            #? (:cljs [cljs.test    :refer-macros [deftest is testing]])))
+            [common-beer-format.yeasts :as yeasts]))
 
 
 (defn note-ends-with-period?
   "Check if the notes attribute ends with a period.
-   
+
    If not, print a message and return false."
   [data]
-  (let [notes (get data :notes)
+  (let [notes             (get data :notes)
         ends-with-period? (str/ends-with? notes ".")]
     (if ends-with-period?
       true

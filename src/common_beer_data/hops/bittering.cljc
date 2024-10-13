@@ -135,7 +135,7 @@
 
 (def magnum-us
   "Excellent bittering profile and a nice, hoppy, floral aroma and subtle characters of citrus.
-   
+
    Genetically indistinguishable from the German variety"
   (hops/build-hop :magnum-us
                   {cbf/beta          0.06

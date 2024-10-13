@@ -7,6 +7,9 @@
             [common-beer-data.fermentables.extracts-test]
             [common-beer-data.fermentables.grains-test]
             [common-beer-data.fermentables.sugars-test]
+            [common-beer-data.hops.aroma-test]
+            [common-beer-data.hops.bittering-test]
+            [common-beer-data.hops.both-test]
             [doo.runner :refer-macros [doo-tests]]))
 
 
@@ -15,4 +18,7 @@
            'common-beer-data.fermentables.dry-extracts-test
            'common-beer-data.fermentables.extracts-test
            'common-beer-data.fermentables.grains-test
-           'common-beer-data.fermentables.sugars-test)
+           'common-beer-data.fermentables.sugars-test
+           'common-beer-data.hops.aroma-test
+           'common-beer-data.hops.bittering-test
+           'common-beer-data.hops.both-test)
