@@ -7,7 +7,7 @@
 
 (def el-dorado
   "Flavors of tropical fruit, pineapple, mango.
-   
+
    Aromas of pear, watermelon, stone fruit and candy."
   (hops/build-hop :el-dorado
                   {cbf/beta          0.08

@@ -1,6 +1,5 @@
 (ns common-beer-data.fermentables.dry-extracts-test
-  (:require #? (:clj  [clojure.test :refer [deftest is testing]])
-            #? (:cljs [cljs.test    :refer-macros [deftest is testing]])
+  (:require [clojure.test :refer [deftest is testing]]
             [com.wallbrew.spoon.spec :as spoon.spec]
             [common-beer-data.fermentables.dry-extracts :as dry-extracts]
             [common-beer-format.fermentables :as fermentables]))
