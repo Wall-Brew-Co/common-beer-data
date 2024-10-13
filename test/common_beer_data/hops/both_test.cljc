@@ -6,7 +6,7 @@
 
 
 (deftest validity-test
-  (testing "Ensure static adjunct definitions are valid"
+  (testing "Ensure static hop definitions are valid"
     (is (spoon.spec/test-valid? ::hops/hop both/el-dorado))
     (is (spoon.spec/test-valid? ::hops/hop both/celeia))
     (is (spoon.spec/test-valid? ::hops/hop both/perle-us))
@@ -19,6 +19,6 @@
     (is (spoon.spec/test-valid? ::hops/hop both/tettnanger))
     (is (spoon.spec/test-valid? ::hops/hop both/galaxy))
     (is (spoon.spec/test-valid? ::hops/hop both/topaz)))
-  (testing "Ensure adjunct group is valid"
+  (testing "Ensure hop group is valid"
     (is (every? #(spoon.spec/test-valid? ::hops/hop %) (vals both/both)))
     (is (every? keyword? (keys both/both)))))

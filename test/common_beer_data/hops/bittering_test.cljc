@@ -6,7 +6,7 @@
 
 
 (deftest validity-test
-  (testing "Ensure static adjunct definitions are valid"
+  (testing "Ensure static hop definitions are valid"
     (is (spoon.spec/test-valid? ::hops/hop bittering/summit))
     (is (spoon.spec/test-valid? ::hops/hop bittering/chelan))
     (is (spoon.spec/test-valid? ::hops/hop bittering/cluster))
@@ -25,6 +25,6 @@
     (is (spoon.spec/test-valid? ::hops/hop bittering/newport))
     (is (spoon.spec/test-valid? ::hops/hop bittering/galena))
     (is (spoon.spec/test-valid? ::hops/hop bittering/bullion)))
-  (testing "Ensure adjunct group is valid"
+  (testing "Ensure hop group is valid"
     (is (every? #(spoon.spec/test-valid? ::hops/hop %) (vals bittering/bittering)))
     (is (every? keyword? (keys bittering/bittering)))))

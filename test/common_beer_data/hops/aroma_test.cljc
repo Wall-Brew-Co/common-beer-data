@@ -6,7 +6,7 @@
 
 
   (deftest validity-test
-    (testing "Ensure static adjunct definitions are valid"
+    (testing "Ensure static hop definitions are valid"
       (is (spoon.spec/test-valid? ::hops/hop aroma/ahtanum))
       (is (spoon.spec/test-valid? ::hops/hop aroma/amarillo))
       (is (spoon.spec/test-valid? ::hops/hop aroma/cascade))
@@ -31,6 +31,6 @@
       (is (spoon.spec/test-valid? ::hops/hop aroma/ultra))
       (is (spoon.spec/test-valid? ::hops/hop aroma/vanguard))
       (is (spoon.spec/test-valid? ::hops/hop aroma/willamette)))
-    (testing "Ensure adjunct group is valid"
+    (testing "Ensure hop group is valid"
       (is (every? #(spoon.spec/test-valid? ::hops/hop %) (vals aroma/aroma)))
       (is (every? keyword? (keys aroma/aroma)))))
