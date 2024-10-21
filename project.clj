@@ -10,7 +10,7 @@
   :pom-addition [:organization
                  [:name "Wall Brew Co."]
                  [:url "https://wallbrew.com"]]
-  :dependencies [[com.wallbrew/common-beer-format "2.4.1"]
+  :dependencies [[com.wallbrew/common-beer-format "2.6.0"]
                  [org.clojure/clojure "1.12.0"]
                  [org.clojure/clojurescript "1.11.132" :scope "provided"]]
   :plugins [[com.github.clj-kondo/lein-clj-kondo "2024.09.27"]
