@@ -19,7 +19,7 @@
             [lein-cljsbuild/lein-cljsbuild "1.1.8"]
             [mvxcvi/cljstyle "0.16.630"]]
   :profiles {:uberjar {:aot :all}
-             :dev     {:dependencies [[com.wallbrew/spoon "1.4.0"]
+             :dev     {:dependencies [[com.wallbrew/spoon "1.5.0"]
                                       [doo/doo "0.1.11"]
                                       [org.clojure/spec.alpha "0.5.238"]]
                        :plugins      [[lein-doo/lein-doo "0.1.11"]]}
