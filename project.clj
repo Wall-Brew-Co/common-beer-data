@@ -17,7 +17,7 @@
             [com.wallbrew/bouncer "1.1.1"]
             [com.wallbrew/lein-sealog "1.8.0"]
             [lein-cljsbuild/lein-cljsbuild "1.1.8"]
-            [mvxcvi/cljstyle "0.16.630"]]
+            [mvxcvi/cljstyle "0.17.642"]]
   :profiles {:uberjar {:aot :all}
              :dev     {:dependencies [[com.wallbrew/spoon "1.5.0"]
                                       [doo/doo "0.1.11"]
