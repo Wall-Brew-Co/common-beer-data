@@ -14,7 +14,7 @@
   :dependencies [[com.wallbrew/common-beer-format "2.6.0"]
                  [org.clojure/clojure "1.12.0"]
                  [org.clojure/clojurescript "1.11.132" :scope "provided"]]
-  :plugins [[com.github.clj-kondo/lein-clj-kondo "2024.11.14"]
+  :plugins [[com.github.clj-kondo/lein-clj-kondo "2025.01.16"]
             [com.wallbrew/bouncer "1.1.1"]
             [com.wallbrew/lein-sealog "1.8.0"]
             [lein-cljsbuild/lein-cljsbuild "1.1.8"]
