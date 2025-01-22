@@ -233,7 +233,7 @@
     <ATTENUATION>0.765</ATTENUATION>
     <DISP_MAX_TEMP>20.0C</DISP_MAX_TEMP>
     <NOTES>Classic ESB strain best for English style milds, bitters, porters and English style stouts. Leaves a clear beer with some residual sweetness.</NOTES>
-    <FLOCCULATION>Very high</FLOCCULATION>
+    <FLOCCULATION>Very High</FLOCCULATION>
     <FORM>Liquid</FORM>
     <VERSION>1</VERSION>
     <PRODUCT_ID>WLP002</PRODUCT_ID>
@@ -998,7 +998,7 @@
     <ATTENUATION>0.765</ATTENUATION>
     <DISP_MAX_TEMP>20.0C</DISP_MAX_TEMP>
     <NOTES>A super clean, super-fast fermenting strain. A low ester-producing strain that results in a balanced, neutral flavor and aroma profile. Alcohol-tolerant and very versatile for a wide variety of styles. Similar to California Ale Yeast WLP001 but it generally ferments faster.</NOTES>
-    <FLOCCULATION>Very high</FLOCCULATION>
+    <FLOCCULATION>Very High</FLOCCULATION>
     <FORM>Liquid</FORM>
     <VERSION>1</VERSION>
     <PRODUCT_ID>WLP090</PRODUCT_ID>
@@ -2715,7 +2715,7 @@
     <ATTENUATION>0.765</ATTENUATION>
     <DISP_MAX_TEMP>23.89C</DISP_MAX_TEMP>
     <NOTES>This is a wild yeast strain isolated from Belgian lambic beers. It produces a pie cherry-like flavor and sourness with a distinct Brett character. A pellicle may form in bottles or casks. This strain works best in conjunction with other yeasts.</NOTES>
-    <FLOCCULATION>Very high</FLOCCULATION>
+    <FLOCCULATION>Very High</FLOCCULATION>
     <FORM>Liquid</FORM>
     <VERSION>1</VERSION>
     <PRODUCT_ID>5526</PRODUCT_ID>

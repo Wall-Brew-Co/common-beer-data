@@ -1,0 +1,12 @@
+{:version      {:major 1
+                :minor 6
+                :patch 1}
+ :version-type :semver3
+ :changes      {:added      []
+                :changed    []
+                :deprecated []
+                :removed    []
+                :fixed      ["Fix capitalization of Flocculation Types"
+                             "Correctly annotate hops with `both` type"]
+                :security   []}
+ :timestamp    "2025-01-22T14:35:10.856616Z"}

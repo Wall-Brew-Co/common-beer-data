@@ -1,6 +1,6 @@
 {
   "name": "common-beer-data",
-  "version": "1.5.0",
+  "version": "1.6.1",
   "description": "An sample collection of common-beer-format and BeerXML data.",
   "main": "index.js",
   "directories": {
