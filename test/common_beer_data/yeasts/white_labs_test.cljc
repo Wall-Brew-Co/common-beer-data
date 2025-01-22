@@ -5,9 +5,6 @@
             [common-beer-format.yeasts :as yeasts]))
 
 
-
-
-
 (deftest validity-test
   (testing "Ensure White Labs group is valid"
     (is (every? #(spoon.spec/test-valid? ::yeasts/yeasts %) (vals sut/white-labs)))

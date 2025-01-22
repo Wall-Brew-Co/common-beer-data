@@ -5,9 +5,6 @@
             [common-beer-format.yeasts :as yeasts]))
 
 
-
-
-
 (deftest validity-test
   (testing "Ensure DCL Fermentis group is valid"
     (is (every? #(spoon.spec/test-valid? ::yeasts/yeasts %) (vals sut/dcl-fermentis)))
