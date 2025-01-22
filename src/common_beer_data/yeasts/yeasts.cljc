@@ -11,13 +11,15 @@
   {cbf/version 1
    cbf/amount  0.0})
 
+
 (defn capitalize-all
   "Capitalize every word in a sentence."
   [s]
   (as-> s %
-      (str/split % #" ")
-      (map str/capitalize %)
-      (str/join " " %)))
+        (str/split % #" ")
+        (map str/capitalize %)
+        (str/join " " %)))
+
 
 (defn build-yeasts
   "Construct a yeast, including display/range values derived from core yeast data."

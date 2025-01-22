@@ -5,7 +5,10 @@
             [common-beer-format.yeasts :as yeasts]))
 
 
-  (deftest validity-test
-    (testing "Ensure Wyeast group is valid"
-      (is (every? #(spoon.spec/test-valid? ::yeasts/yeasts %) (vals sut/wyeast)))
-      (is (every? keyword? (keys sut/wyeast)))))
+
+
+
+(deftest validity-test
+  (testing "Ensure Wyeast group is valid"
+    (is (every? #(spoon.spec/test-valid? ::yeasts/yeasts %) (vals sut/wyeast)))
+    (is (every? keyword? (keys sut/wyeast)))))
