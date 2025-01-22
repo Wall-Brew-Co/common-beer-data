@@ -493,7 +493,7 @@
     <NAME>Challenger</NAME>
     <COHUMULONE>0.2</COHUMULONE>
     <TIME>0.0</TIME>
-    <TYPE>aroma</TYPE>
+    <TYPE>Both</TYPE>
     <MYRCENE>0.36</MYRCENE>
     <HUMULENE>0.3</HUMULENE>
     <HSI>0.8</HSI>
@@ -547,7 +547,7 @@
     <NAME>Galaxy</NAME>
     <COHUMULONE>0.36</COHUMULONE>
     <TIME>0.0</TIME>
-    <TYPE>aroma</TYPE>
+    <TYPE>Both</TYPE>
     <MYRCENE>0.5</MYRCENE>
     <HUMULENE>0.01</HUMULENE>
     <HSI>0.55</HSI>
@@ -691,7 +691,7 @@
     <NAME>Tettnanger</NAME>
     <COHUMULONE>0.2</COHUMULONE>
     <TIME>0.0</TIME>
-    <TYPE>aroma</TYPE>
+    <TYPE>Both</TYPE>
     <MYRCENE>0.24</MYRCENE>
     <HUMULENE>0.2</HUMULENE>
     <HSI>0.55</HSI>
@@ -709,7 +709,7 @@
     <NAME>Citra</NAME>
     <COHUMULONE>0.3</COHUMULONE>
     <TIME>0.0</TIME>
-    <TYPE>aroma</TYPE>
+    <TYPE>Both</TYPE>
     <MYRCENE>0.65</MYRCENE>
     <HUMULENE>0.1</HUMULENE>
     <HSI>0.75</HSI>
@@ -925,7 +925,7 @@
     <NAME>Topaz</NAME>
     <COHUMULONE>0.5</COHUMULONE>
     <TIME>0.0</TIME>
-    <TYPE>aroma</TYPE>
+    <TYPE>Both</TYPE>
     <MYRCENE>0.4</MYRCENE>
     <HUMULENE>0.1</HUMULENE>
     <HSI>0.55</HSI>

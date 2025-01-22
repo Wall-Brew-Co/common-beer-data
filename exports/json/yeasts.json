@@ -246,7 +246,7 @@
       "attenuation" : 0.765,
       "disp-max-temp" : "20.0C",
       "notes" : "Classic ESB strain best for English style milds, bitters, porters and English style stouts. Leaves a clear beer with some residual sweetness.",
-      "flocculation" : "Very high",
+      "flocculation" : "Very High",
       "form" : "Liquid",
       "version" : 1,
       "product-id" : "WLP002"
@@ -1056,7 +1056,7 @@
       "attenuation" : 0.765,
       "disp-max-temp" : "20.0C",
       "notes" : "A super clean, super-fast fermenting strain. A low ester-producing strain that results in a balanced, neutral flavor and aroma profile. Alcohol-tolerant and very versatile for a wide variety of styles. Similar to California Ale Yeast WLP001 but it generally ferments faster.",
-      "flocculation" : "Very high",
+      "flocculation" : "Very High",
       "form" : "Liquid",
       "version" : 1,
       "product-id" : "WLP090"
@@ -2874,7 +2874,7 @@
       "attenuation" : 0.765,
       "disp-max-temp" : "23.89C",
       "notes" : "This is a wild yeast strain isolated from Belgian lambic beers. It produces a pie cherry-like flavor and sourness with a distinct Brett character. A pellicle may form in bottles or casks. This strain works best in conjunction with other yeasts.",
-      "flocculation" : "Very high",
+      "flocculation" : "Very High",
       "form" : "Liquid",
       "version" : 1,
       "product-id" : "5526"
