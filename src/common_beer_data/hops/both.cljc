@@ -125,7 +125,7 @@
                   {cbf/beta          0.037
                    cbf/name          "Challenger"
                    cbf/cohumulone    0.2
-                   cbf/type          "aroma"
+                   cbf/type          "Both"
                    cbf/myrcene       0.36
                    cbf/humulene      0.3
                    cbf/hsi           0.8
@@ -141,7 +141,7 @@
                   {cbf/beta          0.045
                    cbf/name          "Citra"
                    cbf/cohumulone    0.3
-                   cbf/type          "aroma"
+                   cbf/type          "Both"
                    cbf/myrcene       0.65
                    cbf/humulene      0.1
                    cbf/hsi           0.75
@@ -157,7 +157,7 @@
                   {cbf/beta          0.04
                    cbf/name          "Tettnanger"
                    cbf/cohumulone    0.2
-                   cbf/type          "aroma"
+                   cbf/type          "Both"
                    cbf/myrcene       0.24
                    cbf/humulene      0.2
                    cbf/hsi           0.55
@@ -173,7 +173,7 @@
                   {cbf/beta          0.055
                    cbf/name          "Galaxy"
                    cbf/cohumulone    0.36
-                   cbf/type          "aroma"
+                   cbf/type          "Both"
                    cbf/myrcene       0.5
                    cbf/humulene      0.01
                    cbf/hsi           0.55
@@ -189,7 +189,7 @@
                   {cbf/beta          0.07
                    cbf/name          "Topaz"
                    cbf/cohumulone    0.5
-                   cbf/type          "aroma"
+                   cbf/type          "Both"
                    cbf/myrcene       0.4
                    cbf/humulene      0.1
                    cbf/hsi           0.55

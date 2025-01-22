@@ -11,6 +11,13 @@
   {cbf/version 1
    cbf/amount  0.0})
 
+(defn capitalize-all
+  "Capitalize every word in a sentence."
+  [s]
+  (as-> s %
+      (str/split % #" ")
+      (map str/capitalize %)
+      (str/join " " %)))
 
 (defn build-yeasts
   "Construct a yeast, including display/range values derived from core yeast data."
@@ -20,7 +27,7 @@
         yeast-definition (merge yeast-defaults yeast-data)
         yeast            (assoc yeast-definition cbf/disp-min-temp display-min-temp cbf/disp-max-temp display-max-temp)
         cleaned-yeast    (-> yeast
-                             (update cbf/flocculation str/capitalize)
+                             (update cbf/flocculation capitalize-all)
                              (update cbf/form str/capitalize)
                              (update cbf/type str/capitalize))]
     {yeast-key cleaned-yeast}))
