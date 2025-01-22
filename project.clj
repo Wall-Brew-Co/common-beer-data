@@ -16,7 +16,7 @@
                  [org.clojure/clojurescript "1.11.132" :scope "provided"]]
   :plugins [[com.github.clj-kondo/lein-clj-kondo "2025.01.16"]
             [com.wallbrew/bouncer "1.2.0"]
-            [com.wallbrew/lein-sealog "1.8.0"]
+            [com.wallbrew/lein-sealog "1.9.0"]
             [lein-cljsbuild/lein-cljsbuild "1.1.8"]
             [mvxcvi/cljstyle "0.17.642"]]
   :profiles {:uberjar {:aot :all}
@@ -26,7 +26,7 @@
                        :plugins      [[lein-doo/lein-doo "0.1.11"]]}
              :export  {:source-paths ["src" "dev"]
                        :dependencies [[cheshire/cheshire "5.13.0"]
-                                      [com.wallbrew/clj-xml "1.12.0"]]}}
+                                      [com.wallbrew/clj-xml "1.13.0"]]}}
 
   :min-lein-version "2.5.3"
   :deploy-branches ["master"]
