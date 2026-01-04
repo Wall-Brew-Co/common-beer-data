@@ -22,7 +22,7 @@
   :profiles {:uberjar {:aot :all}
              :dev     {:dependencies [[com.wallbrew/spoon "1.5.0"]
                                       [doo/doo "0.1.11"]
-                                      [org.clojure/spec.alpha "0.5.238"]]
+                                      [org.clojure/spec.alpha "0.6.249"]]
                        :plugins      [[lein-doo/lein-doo "0.1.11"]]}
              :export  {:source-paths ["src" "dev"]
                        :dependencies [[cheshire/cheshire "6.1.0"]

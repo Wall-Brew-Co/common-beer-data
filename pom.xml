@@ -96,7 +96,7 @@
     <dependency>
       <groupId>org.clojure</groupId>
       <artifactId>spec.alpha</artifactId>
-      <version>0.5.238</version>
+      <version>0.6.249</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
