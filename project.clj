@@ -13,7 +13,7 @@
                  [:url "https://wallbrew.com"]]
   :dependencies [[com.wallbrew/common-beer-format "2.6.0"]
                  [org.clojure/clojure "1.12.5"]
-                 [org.clojure/clojurescript "1.12.134" :scope "provided"]]
+                 [org.clojure/clojurescript "1.12.145" :scope "provided"]]
   :plugins [[com.github.clj-kondo/lein-clj-kondo "2026.05.25"]
             [com.wallbrew/bouncer "1.2.0"]
             [com.wallbrew/lein-sealog "1.9.0"]
