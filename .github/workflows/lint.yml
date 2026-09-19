@@ -42,7 +42,7 @@ jobs:
       # https://github.com/reviewdog/action-misspell
       - name: Check Spelling
         id: spell-check
-        uses: reviewdog/action-misspell@da40ce414be6ce320a9322aa2bae10bd3b9e6ef3 # v1
+        uses: reviewdog/action-misspell@5f62a0ac088400bd1a3283bbb109efc5a22e8171 # v1
         with:
           github_token: ${{ secrets.WALL_BREW_BOT_PAT }}
           locale: "US"
